@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 using System;
 using System.Net;
+using TMPro;
 #if NJSON_YG2
 using Newtonsoft.Json.Linq;
 #endif
@@ -14,10 +15,10 @@ namespace YG.LanguageLegacy
 {
     public class LanguageYG : MonoBehaviour
     {
-#if TMP_YG2
+
         public TMP_Text textMPComponent;
         public TMP_FontAsset uniqueFontTMP;
-#endif
+
         public Text textLComponent;
         public InfoYG.AutoTranslateLangsSettings info;
         [Space(10)]
