@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 1284199269622042434}
   - component: {fileID: 1010671947548983226}
   - component: {fileID: 1218250652483689603}
+  - component: {fileID: 6956034629625836775}
   m_Layer: 0
-  m_Name: StartFadeInAnim
+  m_Name: ChangeSceneFadeInOutAnim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,3 +123,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6956034629625836775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3752726035951026804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b40717dd9e1f614d97e4cdc404c6f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: 
+  fadeOutAnimator: {fileID: 1218250652483689603}

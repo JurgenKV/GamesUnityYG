@@ -4,28 +4,32 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoadController : MonoBehaviour
 {
-    private static readonly int FadeIn = Animator.StringToHash("FadeIn");
+    private static readonly int ChangeScene = Animator.StringToHash("ChangeScene");
     
     [SerializeField] private string sceneToLoad = "";
     [SerializeField] private Animator fadeOutAnimator = null;
 
     private void Start()
     {
-        fadeOutAnimator = GetComponent<Animator>();
+        if(fadeOutAnimator == null)
+            fadeOutAnimator = GetComponent<Animator>();
     }
 
     public void LoadSceneWithAnim(string sceneToLoad)
     {
         this.sceneToLoad = sceneToLoad;
-        fadeOutAnimator.SetTrigger(FadeIn);
+        if (fadeOutAnimator != null)
+            fadeOutAnimator.SetBool(ChangeScene, true);
+        else
+            LoadSceneByName(sceneToLoad);
     }
-
-    public void LoadSceneEvent()
+    
+    public static void LoadSceneByName(string sceneToLoad)
     {
         SceneManager.LoadScene(sceneToLoad);
     }
-    
-    private void LoadSceneEventPrivate()
+
+    private void LoadSceneEvent()
     {
         SceneManager.LoadScene(sceneToLoad);
     }
