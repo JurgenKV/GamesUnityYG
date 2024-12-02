@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/StartScene/FadeInOut Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/StartScene/FadeInOut Animator Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/StartFadeInAnim.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/StartFadeInAnim.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ServerInfoYG2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ServerInfoYG2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Heavy SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Heavy SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-HeavySlanted SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-HeavySlanted SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Slanted SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Slanted SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/thumb-1920-1266079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/thumb-1920-1266079.jpg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LanguageScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LanguageScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoadController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
@@ -41,7 +45,10 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioButtonsControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataYG.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FocusSoundController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -112,7 +119,8 @@
       <option name="presentableId" value="Default" />
       <updated>1732794288975</updated>
       <workItem from="1732794290480" duration="734000" />
-      <workItem from="1732881827287" duration="2959000" />
+      <workItem from="1732881827287" duration="5344000" />
+      <workItem from="1733145003712" duration="6780000" />
     </task>
     <task id="LOCAL-00001" summary="upd .xml">
       <option name="closed" value="true" />
@@ -130,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732813208139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed logic of LanguageScene">
+      <option name="closed" value="true" />
+      <created>1732891023155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732891023155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +188,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="upd .xml" />
     <MESSAGE value="Added language scene with plugin integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added language scene with plugin integration" />
+    <MESSAGE value="Completed logic of LanguageScene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed logic of LanguageScene" />
   </component>
 </project>
