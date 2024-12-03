@@ -7,9 +7,9 @@
         false,
         false
     ],
-    "idSave": 14,
+    "idSave": 70,
     "IsMusicActive": true,
-    "IsSoundActive": false,
+    "IsSoundActive": true,
     "AmountMoney": 0,
     "TopScore": 0
 }
