@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="">
+    <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="Upload maps and cats with crunch compression">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
@@ -31,6 +30,16 @@
     &quot;assignee&quot;: &quot;JurgenKV&quot;
   }
 }</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Added universal script for control audio" />
+        <option name="rewordedMessage" value="Added universal script for control audio&#10;&#10;AudioElementControl" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="8542dae1af9effdfceafbad8575cd20bd013be7c" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JurgenKV/GamesUnityYG.git&quot;,
@@ -116,7 +125,8 @@
       <workItem from="1732881827287" duration="5344000" />
       <workItem from="1733145003712" duration="6780000" />
       <workItem from="1733158349688" duration="54000" />
-      <workItem from="1733227523595" duration="2131000" />
+      <workItem from="1733227523595" duration="4021000" />
+      <workItem from="1733307887644" duration="1907000" />
     </task>
     <task id="LOCAL-00001" summary="upd .xml">
       <option name="closed" value="true" />
@@ -150,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733158393384</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added universal script for control audio">
+      <option name="closed" value="true" />
+      <created>1733236299927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733236299927</updated>
+    </task>
+    <task id="LOCAL-00006" summary="AudioElementControl">
+      <option name="closed" value="true" />
+      <created>1733236321968</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733236321968</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +220,10 @@
     <MESSAGE value="Added language scene with plugin integration" />
     <MESSAGE value="Completed logic of LanguageScene" />
     <MESSAGE value="Added MainMenuScene.unity and UI audio logic integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MainMenuScene.unity and UI audio logic integration" />
+    <MESSAGE value="Added universal script for control audio" />
+    <MESSAGE value="AudioElementControl" />
+    <MESSAGE value="Added universal script for control audio&#10;&#10;AudioElementControl" />
+    <MESSAGE value="Upload maps and cats with crunch compression" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload maps and cats with crunch compression" />
   </component>
 </project>
