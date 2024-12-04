@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5671223330031521263}
   - component: {fileID: 6696778060012520173}
   - component: {fileID: 3079872413302862452}
-  - component: {fileID: 8917445085672637456}
   m_Layer: 0
   m_Name: MusicController
   m_TagString: Untagged
@@ -141,17 +140,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9837ec7b855a33040a461105aa5814ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8917445085672637456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4408279214375533780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5526faa804d53f4ebdaa62d98d69ca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

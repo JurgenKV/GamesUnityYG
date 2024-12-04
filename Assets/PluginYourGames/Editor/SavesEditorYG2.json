@@ -7,9 +7,10 @@
         false,
         false
     ],
-    "idSave": 70,
+    "idSave": 80,
     "IsMusicActive": true,
     "IsSoundActive": true,
     "AmountMoney": 0,
-    "TopScore": 0
+    "TopScore": 0,
+    "LevelDataYG": []
 }

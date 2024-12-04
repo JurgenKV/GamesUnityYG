@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ff048450eea79084a807f89eb00c7d9f
+guid: 12941bd3d3faf4449bbb260fd544eb16
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4009926403774053751
-    second: image 69_0
+      213: -7534291929103916240
+    second: pngwing 72_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -77,7 +77,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image 69_0
+      name: pngwing 72_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 83
+        y: 17
+        width: 712
+        height: 767
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77d796891de16a730800000000000000
-      internalID: 4009926403774053751
+      spriteID: 0332baba861d07790800000000000000
+      internalID: -7534291929103916240
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      image 69_0: 4009926403774053751
+      pngwing 72_0: -7534291929103916240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
