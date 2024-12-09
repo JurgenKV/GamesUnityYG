@@ -54,12 +54,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicToggle: {fileID: 6474726147024106754}
   musicImage: {fileID: 6585028658269863195}
-  musicOnSprite: {fileID: -2033862268625065129, guid: d694251258e64844b95615ecd267f87d, type: 3}
-  musicOffSprite: {fileID: -6316865323877977670, guid: e3745d23ebdb4034c83875d6e405c778, type: 3}
+  musicOnSprite: {fileID: 652434395347889231, guid: dd8b0d227b47a424e8f9555c04f30759, type: 3}
+  musicOffSprite: {fileID: -4446474179413077547, guid: 7804fad5e7a6891438ef8eb93f6bfbcd, type: 3}
   soundToggle: {fileID: 1548700247385842973}
   soundImage: {fileID: 8652737472592373304}
-  soundOnSprite: {fileID: -3693840834584705859, guid: 5cf17ab146b6ced4099d8a961c5bb980, type: 3}
-  soundOffSprite: {fileID: 6883300597717165653, guid: 7eb22989346b002429ac374b1fd2444b, type: 3}
+  soundOnSprite: {fileID: 1495575057964092001, guid: 20664551957404e4b8712c37b4e60ad7, type: 3}
+  soundOffSprite: {fileID: 3595144569941636070, guid: 6cc9e9fe27854ae42b4aee8c0acd804f, type: 3}
 --- !u!223 &1157803965432242903
 Canvas:
   m_ObjectHideFlags: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2033862268625065129, guid: d694251258e64844b95615ecd267f87d, type: 3}
+  m_Sprite: {fileID: 652434395347889231, guid: dd8b0d227b47a424e8f9555c04f30759, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3693840834584705859, guid: 5cf17ab146b6ced4099d8a961c5bb980, type: 3}
+  m_Sprite: {fileID: 1495575057964092001, guid: 20664551957404e4b8712c37b4e60ad7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
