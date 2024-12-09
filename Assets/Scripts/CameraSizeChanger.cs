@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class CameraSizeChanger : MonoBehaviour
 {
-    private Scrollbar _scrollbar = null; 
+    private Slider _slider = null; 
     private CameraDrag _cameraDrag = null; 
     [SerializeField] private Camera _camera = null; // Camera reference to be assigned via the inspector
     
@@ -24,8 +24,8 @@ public class CameraSizeChanger : MonoBehaviour
     private void InitializeScrollbarAndCamera()
     {
         // Ensure the scrollbar is assigned
-        if (_scrollbar == null)
-            _scrollbar = GetComponent<Scrollbar>();
+        if (_slider == null)
+            _slider = GetComponent<Slider>();
 
         // Ensure the camera is assigned, otherwise, use the main camera
         if (_camera == null)
@@ -34,12 +34,13 @@ public class CameraSizeChanger : MonoBehaviour
 
     private void SetScrollbarValueBasedOnCameraSize()
     {
-        if (_camera != null && _scrollbar != null)
+        if (_camera != null && _slider != null)
         {
             // Normalize the camera size between the min and max range
             float normalizedSize = Mathf.InverseLerp(_cameraDrag.MinCameraSize, _cameraDrag.MaxCameraSize, _camera.orthographicSize);
-            _scrollbar.value = normalizedSize; // Set the scrollbar value
+            _slider.value = normalizedSize; // Set the scrollbar value
         }
+        
     }
 
     public void ChangeSize(float newSize)

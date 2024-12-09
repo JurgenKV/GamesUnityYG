@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: LanguageScene
+  levelDataStorageDefault: {fileID: 11400000, guid: d79126396f7a9f44491ad7867516c064, type: 2}
 --- !u!4 &1304737114
 Transform:
   m_ObjectHideFlags: 0

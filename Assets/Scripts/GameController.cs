@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using YG;
@@ -8,15 +9,16 @@ using YG;
 public class GameController : MonoBehaviour
 {
     private List<Cat> _cats;
+    [SerializeField] private TMP_Text catCounterText;
     [SerializeField] private LevelDataStorage _levelDataStorage;
     private LevelData _currentlevelData;
     void Start()
     {
         string levelName = SceneManager.GetActiveScene().name.ToString();
         levelName = Regex.Replace(levelName, @"^.*? ", "");
-        _currentlevelData = _levelDataStorage.Levels.Find(i=> i.Id == int.Parse(levelName));
-
-        SetCatsState();
+        //_currentlevelData = _levelDataStorage.Levels.Find(i=> i.Id == int.Parse(levelName));
+        
+        //SetCatsState();
     }
 
     // Update is called once per frame

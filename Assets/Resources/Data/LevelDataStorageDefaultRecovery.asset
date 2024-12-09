@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf30bda10ff7909468117dfe6af8cb0f, type: 3}
-  m_Name: LevelDataStorageDefault
+  m_Name: LevelDataStorageDefaultRecovery
   m_EditorClassIdentifier: 
   Levels:
   - Id: 0
