@@ -2,9 +2,9 @@
 using UnityEditor;
 using UnityEngine.UI;
 using UnityEditor.SceneManagement;
-#if TMP_YG2
+
 using TMPro;
-#endif
+
 
 namespace YG.LanguageLegacy
 {
@@ -44,6 +44,8 @@ namespace YG.LanguageLegacy
 #else
             if (scr.textLComponent == null)
                 isNullTextComponent = true;
+            if (scr.textLComponent == null && scr.textMPComponent == null)
+                isNullTextComponent = true;
 #endif
 
             if (isNullTextComponent)
@@ -53,12 +55,12 @@ namespace YG.LanguageLegacy
                     scr.textLComponent = scr.gameObject.AddComponent<Text>();
                     Undo.RecordObject(scr.textLComponent, "Undo textUIComponent");
                 }
-#if TMP_YG2
+
                 if (GUILayout.Button("Add component - Text Mesh Pro UGUI", GUILayout.Height(23)))
                 {
                     scr.textMPComponent = scr.gameObject.AddComponent<TextMeshProUGUI>();
                 }
-#endif
+
                 return;
             }
 

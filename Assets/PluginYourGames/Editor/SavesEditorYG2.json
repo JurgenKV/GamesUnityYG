@@ -1,0 +1,89 @@
+{
+    "idSave": 144,
+    "IsMusicActive": false,
+    "IsSoundActive": false,
+    "AmountMoney": 0,
+    "TopScore": 0,
+    "LevelDataYG": [
+        {
+            "Id": 0,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 1,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 3,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 4,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 5,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 6,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 7,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 8,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 8,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 8,
+            "CatsAmount": 10,
+            "CatsCought": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        }
+    ]
+}

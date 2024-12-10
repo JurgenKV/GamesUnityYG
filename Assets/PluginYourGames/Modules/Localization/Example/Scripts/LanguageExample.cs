@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace YG.Example
@@ -7,11 +8,11 @@ namespace YG.Example
     {
         public string ru, en, tr;
 
-        private Text textComponent;
+        private TMP_Text textComponent;
 
         private void Awake()
         {
-            textComponent = GetComponent<Text>();
+            textComponent = GetComponent<TMP_Text>();
             SwitchLanguage(YG2.lang);
         }
 

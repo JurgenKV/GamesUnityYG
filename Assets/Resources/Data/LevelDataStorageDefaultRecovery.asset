@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf30bda10ff7909468117dfe6af8cb0f, type: 3}
+  m_Name: LevelDataStorageDefaultRecovery
+  m_EditorClassIdentifier: 
+  Levels:
+  - Id: 0
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 1
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 3
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 4
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 5
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 6
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 7
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 8
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 8
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 8
+    CatsAmount: 10
+    CatsCought: 0
+    IsNeedRewardToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  LevelLogo:
+  - {fileID: 21300000, guid: a182633a5514eaa48a4f600bfe05313a, type: 3}
+  - {fileID: 21300000, guid: a992e146dba147643b488a7e88756353, type: 3}
+  - {fileID: 21300000, guid: 0fd6524ab11469f41803afa64e33142f, type: 3}
+  - {fileID: 21300000, guid: a5f7adfba9eaaf44d9f9faba7d39019c, type: 3}
+  - {fileID: 21300000, guid: 9f325bcc4a8c3364bb3b6b066e631fcb, type: 3}
+  - {fileID: 21300000, guid: 6251e75ca05d0404b87bddd9cf0d8f17, type: 3}
+  - {fileID: 21300000, guid: 21d986c48fe59f14081b5ee6fe36b8f9, type: 3}
+  - {fileID: 21300000, guid: d4c94124cde3dbd489a977ac788d6c55, type: 3}
+  - {fileID: 21300000, guid: 99de0eaa868c1724ca6c802eed2cb320, type: 3}
+  - {fileID: 21300000, guid: 3c5ba5835d4cc784a9db2e2e7d14a331, type: 3}
+  - {fileID: 21300000, guid: 1b52cb37e04a1f44189ffb7af66e9d2a, type: 3}
+  - {fileID: 21300000, guid: f4ea3cc56b2b45d47a1d3ad9e7883021, type: 3}
+  - {fileID: 21300000, guid: ac9f8c65b14c4124495e2adfc95f25b4, type: 3}
+  - {fileID: 21300000, guid: 98f569d62e1ebaa45b0a9a679950bb89, type: 3}
+  - {fileID: 21300000, guid: a349067db9671994c8347e3884ad83d7, type: 3}
+  - {fileID: 21300000, guid: e5346432fd960904bbb2bcff801fce45, type: 3}
+  - {fileID: 21300000, guid: f673f71efde466b42bbf12ef65fc5864, type: 3}
+  - {fileID: 21300000, guid: 32bb188d96b5fda4b9abdfff1d8f5e39, type: 3}
+  - {fileID: 21300000, guid: 75d9f16d64804624f9f5fa3386a8b62f, type: 3}
+  - {fileID: 21300000, guid: 04482f7c2081c6d4fb60f57b906abe26, type: 3}
