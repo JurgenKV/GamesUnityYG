@@ -12,7 +12,7 @@ public class UpdateTopScore : MonoBehaviour
 
     public void RefreshTopScore()
     {
-        topScoreText.text = YG2.saves.TopScore.ToString();
+       // topScoreText.text = YG2.saves.TopScore.ToString();
     }
 
 }

@@ -9,6 +9,7 @@ public class LevelUIManager : MonoBehaviour
     [SerializeField] private LevelDataStorage levelDataStorageDefault;
     void Start()
     {
+        CheckTotalCats();
         UpdateLevelUI();
     }
 
@@ -21,5 +22,12 @@ public class LevelUIManager : MonoBehaviour
             levelUis[i].SetLevelUI(levelData.ElementAt(i));
             levelUis[i].SetLevelImage(levelDataStorageDefault.LevelLogo.ElementAt(i));
         }
+    }
+
+    private void CheckTotalCats()
+    {
+        YG2.saves.TotalCats = YG2.saves.LevelDataYG.Sum(level => level.CatsCoughtTotal);
+        
+        YG2.saves.SetAnyLeaderboard("CatFinder", YG2.saves.TotalCats );
     }
 }

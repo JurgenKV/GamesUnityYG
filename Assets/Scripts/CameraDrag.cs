@@ -156,7 +156,23 @@ public class CameraDrag : MonoBehaviour
 
     private bool IsPointerOverUI()
     {
-        return EventSystem.current != null && EventSystem.current.IsPointerOverGameObject();
+        // Проверяем стандартное нахождение указателя над объектом UI
+        
+        // if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+        // {
+        //     Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); // Луч от камеры через позицию мыши
+        //     RaycastHit hit;
+        //     if (Physics.Raycast(ray, out hit))
+        //     {
+        //         // Проверяем, находится ли объект в слое UI
+        //         int uiLayer = LayerMask.NameToLayer("UI");
+        //         if (hit.collider.gameObject.layer == uiLayer)
+        //         {
+        //             return true;
+        //         }
+        //     }
+        // }
+        return false;
     }
 
     private void HandleBoundaryClamp()

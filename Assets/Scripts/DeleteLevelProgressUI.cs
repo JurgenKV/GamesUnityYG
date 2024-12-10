@@ -22,7 +22,7 @@ public class DeleteLevelProgressUI : MonoBehaviour
     public void DeleteProgressButton()
     {
         if(levelToDelete >= 0)
-            levelDataStorageDefault.ResetLevelYg(levelToDelete);
+            levelDataStorageDefault.ResetCoughtCatsYg(levelToDelete);
         
         ClosePanelButton();
         levelUIManager.UpdateLevelUI();

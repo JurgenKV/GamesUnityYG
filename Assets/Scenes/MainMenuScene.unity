@@ -1425,7 +1425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelDataStorageDefault: {fileID: 11400000, guid: d79126396f7a9f44491ad7867516c064, type: 2}
-  levelUIManager: {fileID: 0}
+  levelUIManager: {fileID: 1361306154}
   levelToDelete: -1
   _panel: {fileID: 1953896018}
 --- !u!1 &830966349
@@ -4899,7 +4899,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0

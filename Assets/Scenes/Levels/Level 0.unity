@@ -436,7 +436,6 @@ MonoBehaviour:
   - {fileID: 1826019735}
   - {fileID: 1386450119}
   catCounterText: {fileID: 2075453766}
-  _defaultLevelDataStorage: {fileID: 11400000, guid: d79126396f7a9f44491ad7867516c064, type: 2}
   helpAdButton: {fileID: 1607701367}
   CatsAmountText: {fileID: 2075453766}
 --- !u!1 &270558442
@@ -1244,7 +1243,7 @@ GameObject:
   - component: {fileID: 1100527350}
   - component: {fileID: 1100527349}
   - component: {fileID: 1100527348}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1434,9 +1433,17 @@ PrefabInstance:
       propertyPath: tr
       value: "Hay\u0131r"
       objectReference: {fileID: 0}
+    - target: {fileID: 1996443018906537536, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6504840763593942086, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
       propertyPath: m_Name
       value: ColorButtonNo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504840763593942086, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6504840763593942086, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
       propertyPath: m_IsActive
@@ -1746,7 +1753,7 @@ GameObject:
   - component: {fileID: 1155848668}
   - component: {fileID: 1155848667}
   - component: {fileID: 1155848666}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: sliding background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1960,7 +1967,7 @@ GameObject:
   - component: {fileID: 1342979649}
   - component: {fileID: 1342979648}
   - component: {fileID: 1342979647}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Desciption Window (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2511,7 +2518,7 @@ GameObject:
   - component: {fileID: 1570280215}
   - component: {fileID: 1570280214}
   - component: {fileID: 1570280213}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Desciption Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2710,7 +2717,7 @@ GameObject:
   - component: {fileID: 1607701365}
   - component: {fileID: 1607701364}
   - component: {fileID: 1607701363}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button Help Ad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2884,7 +2891,7 @@ GameObject:
   - component: {fileID: 1632306066}
   - component: {fileID: 1632306065}
   - component: {fileID: 1632306064}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button to menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3401,9 +3408,17 @@ PrefabInstance:
       propertyPath: tr
       value: Evet
       objectReference: {fileID: 0}
+    - target: {fileID: 1996443018906537536, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6504840763593942086, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
       propertyPath: m_Name
       value: ColorButtonYes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504840763593942086, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6504840763593942086, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
       propertyPath: m_IsActive
