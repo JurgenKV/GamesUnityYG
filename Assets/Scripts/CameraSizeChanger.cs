@@ -40,7 +40,13 @@ public class CameraSizeChanger : MonoBehaviour
             float normalizedSize = Mathf.InverseLerp(_cameraDrag.MinCameraSize, _cameraDrag.MaxCameraSize, _camera.orthographicSize);
             _slider.value = normalizedSize; // Set the scrollbar value
         }
-        
+    }
+
+    public void ScrollHelp()
+    {
+        _camera.transform.position = new Vector3(0, 0, -10);
+        _slider.value = 1;
+        ChangeSize(_slider.value);
     }
 
     public void ChangeSize(float newSize)

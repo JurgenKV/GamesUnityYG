@@ -1,5 +1,5 @@
 {
-    "idSave": 349,
+    "idSave": 534,
     "IsMusicActive": false,
     "IsSoundActive": false,
     "TotalCats": 0,
@@ -7,15 +7,12 @@
         {
             "Id": 0,
             "CatsAmount": 10,
-            "CatsCoughtTotal": 2,
+            "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": false,
             "IsNeedTotalCatsToUnlock": false,
             "CatsToUnlock": 0,
             "IsUnlocked": true,
-            "IdOfCoughtCats": [
-                1,
-                0
-            ]
+            "IdOfCoughtCats": []
         },
         {
             "Id": 1,
@@ -64,7 +61,7 @@
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
             "CatsToUnlock": 0,
-            "IsUnlocked": false,
+            "IsUnlocked": true,
             "IdOfCoughtCats": []
         },
         {
