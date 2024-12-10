@@ -10,10 +10,12 @@ public class LevelDataStorage : ScriptableObject
     public List<LevelData> Levels = new List<LevelData>();
     public List<Sprite> LevelLogo = new List<Sprite>();
 
-    public void ResetLevelYg(int levelId)
+    public void ResetCoughtCatsYg(int levelId)
     {
         LevelData levelToReset = YG2.saves.LevelDataYG.First(i=> i.Id == levelId);
-        levelToReset = Levels.Find(i=> i.Id == levelId);
+        
+        levelToReset.IdOfCoughtCats.Clear();
+        
         YG2.SaveProgress();
     }
 }
@@ -23,21 +25,39 @@ public class LevelData
 {
     public int Id;
     public int CatsAmount = 0;
-    public int CatsCought = 0;
+    //public int CatsCought = 0;
+    public int CatsCoughtTotal = 0;
+
     public bool IsNeedRewardToUnlock = false;
+    public bool IsNeedTotalCatsToUnlock = false;
+
+    public int CatsToUnlock = 0;
+
     public bool IsUnlocked = false;
-    public int[] IdOfCoughtCats = Array.Empty<int>();
-    
-    public LevelData(int id, int catsAmount, int catsCought, bool isNeedRewardToUnlock, bool isUnlocked, int[] idOfCoughtCats)
+    public List<int> IdOfCoughtCats = new List<int>();
+
+    public LevelData(
+        int id,
+        int catsAmount,
+        int catsCought,
+        int catsCoughtTotal,
+        bool isNeedRewardToUnlock,
+        bool isNeedTotalCatsToUnlock,
+        int catsToUnlock,
+        bool isUnlocked,
+        List<int> idOfCoughtCats)
     {
         Id = id;
         CatsAmount = catsAmount;
-        CatsCought = catsCought;
+        //CatsCought = catsCought;
+        CatsCoughtTotal = catsCoughtTotal;
         IsNeedRewardToUnlock = isNeedRewardToUnlock;
+        IsNeedTotalCatsToUnlock = isNeedTotalCatsToUnlock;
+        CatsToUnlock = catsToUnlock;
         IsUnlocked = isUnlocked;
-        IdOfCoughtCats = idOfCoughtCats ?? Array.Empty<int>(); 
+        IdOfCoughtCats = idOfCoughtCats ?? new List<int>();
     }
-    
+
     public LevelData(LevelData other)
     {
         if (other == null)
@@ -45,10 +65,19 @@ public class LevelData
 
         Id = other.Id;
         CatsAmount = other.CatsAmount;
-        CatsCought = other.CatsCought;
+        //CatsCought = other.CatsCought;
+        CatsCoughtTotal = other.CatsCoughtTotal;
         IsNeedRewardToUnlock = other.IsNeedRewardToUnlock;
+        IsNeedTotalCatsToUnlock = other.IsNeedTotalCatsToUnlock;
+        CatsToUnlock = other.CatsToUnlock;
         IsUnlocked = other.IsUnlocked;
-        
-        IdOfCoughtCats = other.IdOfCoughtCats != null ? (int[])other.IdOfCoughtCats.Clone() : Array.Empty<int>();
+
+        IdOfCoughtCats = new List<int>(other.IdOfCoughtCats);
+    }
+
+    public void SetTotalCats(int newTotal)
+    {
+        if(newTotal > CatsCoughtTotal)
+            CatsCoughtTotal = newTotal;
     }
 }

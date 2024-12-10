@@ -15,62 +15,162 @@ MonoBehaviour:
   Levels:
   - Id: 0
     CatsAmount: 10
-    CatsCought: 0
+    CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0
-    IsUnlocked: 0
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 1
     IdOfCoughtCats: 
   - Id: 1
     CatsAmount: 10
-    CatsCought: 0
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 1
+    IdOfCoughtCats: 
+  - Id: 2
+    CatsAmount: 10
+    CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0
-    IsUnlocked: 0
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 1
     IdOfCoughtCats: 
   - Id: 3
     CatsAmount: 10
-    CatsCought: 0
+    CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0
-    IsUnlocked: 0
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 1
     IdOfCoughtCats: 
   - Id: 4
     CatsAmount: 10
-    CatsCought: 0
+    CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0
+    IsNeedTotalCatsToUnlock: 1
+    CatsToUnlock: 50
     IsUnlocked: 0
     IdOfCoughtCats: 
   - Id: 5
     CatsAmount: 10
-    CatsCought: 0
-    IsNeedRewardToUnlock: 0
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
     IsUnlocked: 0
     IdOfCoughtCats: 
   - Id: 6
     CatsAmount: 10
-    CatsCought: 0
-    IsNeedRewardToUnlock: 0
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
     IsUnlocked: 0
     IdOfCoughtCats: 
   - Id: 7
     CatsAmount: 10
-    CatsCought: 0
+    CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0
+    IsNeedTotalCatsToUnlock: 1
+    CatsToUnlock: 200
     IsUnlocked: 0
     IdOfCoughtCats: 
   - Id: 8
     CatsAmount: 10
-    CatsCought: 0
-    IsNeedRewardToUnlock: 0
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
     IsUnlocked: 0
     IdOfCoughtCats: 
-  - Id: 8
+  - Id: 9
     CatsAmount: 10
-    CatsCought: 0
-    IsNeedRewardToUnlock: 0
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
     IsUnlocked: 0
     IdOfCoughtCats: 
-  - Id: 8
+  - Id: 9
     CatsAmount: 10
-    CatsCought: 0
-    IsNeedRewardToUnlock: 0
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 9
+    CatsAmount: 10
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 9
+    CatsAmount: 10
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 9
+    CatsAmount: 10
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 9
+    CatsAmount: 10
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 9
+    CatsAmount: 10
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 9
+    CatsAmount: 10
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 17
+    CatsAmount: 10
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 18
+    CatsAmount: 10
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 0
+    IdOfCoughtCats: 
+  - Id: 19
+    CatsAmount: 10
+    CatsCoughtTotal: 0
+    IsNeedRewardToUnlock: 1
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
     IsUnlocked: 0
     IdOfCoughtCats: 
   LevelLogo:

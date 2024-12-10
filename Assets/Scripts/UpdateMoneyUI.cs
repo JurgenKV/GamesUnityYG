@@ -14,6 +14,6 @@ public class UpdateMoneyUI : MonoBehaviour
 
     public void RefreshMoneyAmount()
     {
-        moneyAmountText.text = YG2.saves.AmountMoney.ToString();
+       // moneyAmountText.text = YG2.saves.AmountMoney.ToString();
     }
 }
