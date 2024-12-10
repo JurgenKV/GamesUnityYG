@@ -34,7 +34,7 @@ public class FocusSoundController : MonoBehaviour
 
     private void CheckADS()
     {
-        if (YG2.nowAdsShow || YG2.nowRewardAdv)
+        if (YG2.nowAdsShow || YG2.nowRewardAdv || YG2.nowInterAdv)
         {
             AudioListener.volume = 0;
         }

@@ -11,6 +11,8 @@ using YG;
 public class GameController : MonoBehaviour
 {
     public List<Cat> CatsList;
+    public int helpCooldown = 60;
+    
     [SerializeField] private TMP_Text catCounterText;
     //[SerializeField] private LevelDataStorage _defaultLevelDataStorage;
 
@@ -45,11 +47,8 @@ public class GameController : MonoBehaviour
 
     public void CatWasFound(int catId)
     {
-        //_currentlevelData.IdOfCoughtCats.Add(catId);
+        
         YG2.saves.LevelDataYG.Find(i => i.Id == _levelID).IdOfCoughtCats.Add(catId);
-        
-        //YG2.saves.LevelDataYG.First(i => i.Equals(levelData)).IdOfCoughtCats.Add(catId);
-        
         Cat tempCat = CatsList.First(i=>i.CatID == catId);
         tempCat.WasFound = true;
         tempCat.CheckCatState();
@@ -60,16 +59,15 @@ public class GameController : MonoBehaviour
         YG2.SaveProgress();
     }
 
-    public void OnClickHelpAdButton(int helpCooldown = 0)
+    public void OnClickHelpAdButton()
     {
-        StartAdVideoHelpButton();
         StartCoroutine(AdCoolDownCoroutine(helpCooldown));
-        EndAdVideoHelpButton();
+        StartAdVideoHelpButton();
     }
 
     private void StartAdVideoHelpButton()
     {
-        
+        FindAnyObjectByType<ADManagerYG>().StartRewardHelpFindCatLevel("0");
     }
 
     public void EndAdVideoHelpButton()
@@ -79,11 +77,12 @@ public class GameController : MonoBehaviour
             .Select(obj => obj.CatID)        
             .Where(id => !_currentlevelData.IdOfCoughtCats.Contains(id)) 
             .ToList();
-        int randomIndex = Random.Range(0, missingIds.Count);
         
-        int randomId = missingIds[randomIndex];
+        int randomId = missingIds[Random.Range(0, missingIds.Count)];
         
         CatsList.First(i=> i.CatID == randomId).SetHelpTrigger();
+        
+        FindAnyObjectByType<CameraSizeChanger>().ScrollHelp();
     }
     private IEnumerator AdCoolDownCoroutine(int cooldown)
     {

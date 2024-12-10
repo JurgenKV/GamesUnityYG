@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using YG;
 
@@ -11,6 +12,7 @@ public class LevelUIManager : MonoBehaviour
     {
         CheckTotalCats();
         UpdateLevelUI();
+        ADManagerYG.ShowFullAds();
     }
 
     public void UpdateLevelUI()
@@ -22,6 +24,16 @@ public class LevelUIManager : MonoBehaviour
             levelUis[i].SetLevelUI(levelData.ElementAt(i));
             levelUis[i].SetLevelImage(levelDataStorageDefault.LevelLogo.ElementAt(i));
         }
+    }
+
+    public void EndRewardUnlockLevel(int tempLevelID)
+    {
+        LevelData tempLevel = YG2.saves.LevelDataYG.First(i=> i.Id == tempLevelID);
+        tempLevel.IsUnlocked = true;
+        //tempLevel.IsNeedRewardToUnlock = false;
+        YG2.SaveProgress();
+
+        levelUis.First(id => id.LevelID == tempLevelID).CheckLockState(tempLevel);
     }
 
     private void CheckTotalCats()

@@ -4,28 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="Completed main part of level ui and game logic with animations, completed data manipulations">
+    <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="Fix cats obj layers, changed camera using etc.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Data/LevelDataStorageDefault.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Data/LevelDataStorageDefault.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Data/LevelDataStorageDefaultRecovery.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Data/LevelDataStorageDefaultRecovery.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Heavy SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Heavy SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/ChangeSceneFadeInOutAnim.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/ChangeSceneFadeInOutAnim.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/LevelUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/LevelUI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InitScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InitScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Group 21336.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Group 21336.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 0.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraDrag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraDrag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/DataYG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/DataYG.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/LevelDataStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/LevelDataStorage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeleteLevelProgressUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeleteLevelProgressUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraSizeChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraSizeChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FocusSoundController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FocusSoundController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InitPlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InitPlugin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpdateMoneyUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UpdateMoneyUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpdateTopScoreUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UpdateTopScoreUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,13 +50,24 @@
     <option name="currentCommit" value="1" />
     <option name="onto" value="8542dae1af9effdfceafbad8575cd20bd013be7c" />
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/JurgenKV/GamesUnityYG.git&quot;,
-    &quot;accountId&quot;: &quot;43c89ec8-f02f-458e-b393-468e4eac6926&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JurgenKV/GamesUnityYG.git",
+    "accountId": "43c89ec8-f02f-458e-b393-468e4eac6926"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "JurgenKV",
+    "repository": "GamesUnityYG"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ADManagerYG.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioButtonsControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioElementControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraDrag.cs" root0="FORCE_HIGHLIGHTING" />
@@ -156,7 +160,7 @@
       <workItem from="1733495962661" duration="2103000" />
       <workItem from="1733737143919" duration="530000" />
       <workItem from="1733742473667" duration="16980000" />
-      <workItem from="1733820369373" duration="20179000" />
+      <workItem from="1733820369373" duration="28314000" />
     </task>
     <task id="LOCAL-00001" summary="upd .xml">
       <option name="closed" value="true" />
@@ -246,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733842385887</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix cats obj layers, changed camera using etc.">
+      <option name="closed" value="true" />
+      <created>1733844038000</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733844038000</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +310,7 @@
     <MESSAGE value="ADDED menu UI, added prototype of game logic and data storage" />
     <MESSAGE value="Added playground UI. ScrollBar replaced by Slider" />
     <MESSAGE value="Completed main part of level ui and game logic with animations, completed data manipulations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed main part of level ui and game logic with animations, completed data manipulations" />
+    <MESSAGE value="Fix cats obj layers, changed camera using etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix cats obj layers, changed camera using etc." />
   </component>
 </project>

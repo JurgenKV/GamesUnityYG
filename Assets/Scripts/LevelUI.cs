@@ -5,7 +5,7 @@ using YG;
 
 public class LevelUI : MonoBehaviour
 {
-    private int _levelId;
+    public int LevelID;
     [SerializeField] private TMP_Text levelNum;
     [SerializeField] private TMP_Text catCount;
     [SerializeField] private Image levelImage;
@@ -19,8 +19,8 @@ public class LevelUI : MonoBehaviour
     
     public void SetLevelUI(LevelData levelData)
     {
-        _levelId = levelData.Id;
-        levelNum.text = (_levelId + 1).ToString();
+        LevelID = levelData.Id;
+        levelNum.text = (LevelID + 1).ToString();
         catCount.text = levelData.IdOfCoughtCats.Count.ToString() + '/' + levelData.CatsAmount.ToString();
         CheckLockState(levelData);
     }
@@ -46,20 +46,26 @@ public class LevelUI : MonoBehaviour
 
     public void StartLevel()
     {
-        FindAnyObjectByType<SceneLoadController>().LoadSceneWithAnim("Level " + _levelId.ToString());
+        FindAnyObjectByType<SceneLoadController>().LoadSceneWithAnim("Level " + LevelID.ToString());
     }
 
     public void AgainLevel()
     {
-        FindAnyObjectByType<DeleteLevelProgressUI>().OpenDeleteLevelProgressUI(_levelId);
+        FindAnyObjectByType<DeleteLevelProgressUI>().OpenDeleteLevelProgressUI(LevelID);
     }
 
-    private void CheckLockState(LevelData levelData)
+    public void CheckLockState(LevelData levelData)
     {
         if (!levelData.IsUnlocked)
         {   
             CheckReward(levelData);
             CheckTotalCats(levelData);
+        }
+        else
+        {
+            shadowPanelAD.SetActive(false);
+            shadowPanelNeedCats.SetActive(false);
+            startLevelButton.interactable = true;
         }
         
         SetAgainLevelButton(levelData);
@@ -85,7 +91,7 @@ public class LevelUI : MonoBehaviour
             }else
             {
                 shadowPanelNeedCats.SetActive(false);
-                YG2.saves.LevelDataYG.Find(i=> i.Id == _levelId).IsUnlocked = true;
+                YG2.saves.LevelDataYG.Find(i=> i.Id == LevelID).IsUnlocked = true;
                 YG2.SaveProgress();
                 FindAnyObjectByType<LevelUIManager>().UpdateLevelUI();
             }
@@ -94,15 +100,7 @@ public class LevelUI : MonoBehaviour
 
     public void StartRewardAD()
     {
-        //
-        
-    }
-
-    public void EndRewardAD()
-    {
-        YG2.saves.LevelDataYG.Find(i=> i.Id == _levelId).IsUnlocked = true;
-        YG2.SaveProgress();
-        FindAnyObjectByType<LevelUIManager>().UpdateLevelUI();
+        FindAnyObjectByType<ADManagerYG>().StartRewardUnlockLevel("1", LevelID);
     }
     
 }
