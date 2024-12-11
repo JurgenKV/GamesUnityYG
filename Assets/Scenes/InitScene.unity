@@ -389,7 +389,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57a2846725ca0744f9ee460645bd8f08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDebugActive: 1
+  isDebugActive: 0
+  Music: 0
+  Sound: 0
   _levelDatas: []
 --- !u!114 &1960002004
 MonoBehaviour:
@@ -398,7 +400,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960002002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5526faa804d53f4ebdaa62d98d69ca0, type: 3}
   m_Name: 

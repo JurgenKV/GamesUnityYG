@@ -12,13 +12,11 @@ public class InitPlugin : MonoBehaviour
 
     private void OnGetData()
     {
-        
-        //if (!YG2.isFirstGameSession)
-        //{
+        if (YG2.isFirstGameSession)
+        {
             LoadDefaultLevelData();
             YG2.SaveProgress();
-        //}
-            
+        }
         
         SceneManager.LoadScene(sceneName);
     }
@@ -26,7 +24,6 @@ public class InitPlugin : MonoBehaviour
     private void LoadDefaultLevelData()
     {
         YG2.saves.SetData(levelDataStorageDefault.Levels);
-        
         //YG2.saves.LevelDataYG.AddRange(levelDataStorageDefault.Levels);
     }
     

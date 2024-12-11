@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using YG;
@@ -18,6 +19,8 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private Button helpAdButton;
     [SerializeField] private TMP_Text CatsAmountText;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private List<AudioResource> _resources;
     
     private LevelData _currentlevelData;
     private int _levelID = -1;
@@ -47,7 +50,7 @@ public class GameController : MonoBehaviour
 
     public void CatWasFound(int catId)
     {
-        
+        PlayRandomAudio();
         YG2.saves.LevelDataYG.Find(i => i.Id == _levelID).IdOfCoughtCats.Add(catId);
         Cat tempCat = CatsList.First(i=>i.CatID == catId);
         tempCat.WasFound = true;
@@ -90,6 +93,12 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(cooldown);
         helpAdButton.interactable = true;
         UpdateUI();
+    }
+
+    private void PlayRandomAudio()
+    {
+        audioSource.resource = _resources[Random.Range(0, _resources.Count)];
+        audioSource.Play();
     }
     private void UpdateUI()
     {

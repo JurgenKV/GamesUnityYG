@@ -17,7 +17,8 @@ public class AudioElementControl : MonoBehaviour
     private bool _prevIsMusicActive = false;
     private void Start()
     {
-        CheckAudio();
+        CheckStartAudio();
+        //CheckAudio();
     }
 
     private void Update()
@@ -82,6 +83,42 @@ public class AudioElementControl : MonoBehaviour
         }
         
         _prevIsMusicActive = YG2.saves.IsMusicActive;
+    }
+
+    private void CheckStartAudio()
+    {
+        _prevIsSoundActive = YG2.saves.IsSoundActive;
+        _prevIsMusicActive = YG2.saves.IsMusicActive;
+        
+        if (YG2.saves.IsSoundActive)
+        {
+            foreach (AudioSource source in audioSourceByType)
+            {
+                source.mute = false;
+            }
+        }
+        else
+        {
+            foreach (AudioSource source in audioSourceByType)
+            {
+                source.mute = true;
+            }
+        }
+        
+        if (YG2.saves.IsMusicActive)
+        {
+            foreach (AudioSource source in audioSourceByType)
+            {
+                source.mute = false;
+            }
+        }
+        else
+        {
+            foreach (AudioSource source in audioSourceByType)
+            {
+                source.mute = true;
+            }
+        }
     }
     
     
