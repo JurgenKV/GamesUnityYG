@@ -2483,10 +2483,6 @@ PrefabInstance:
       propertyPath: m_PixelPerfect
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 772058571677143913, guid: b7c5ff7b767151941bb2a7bee3a046e1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 436845212}
     - target: {fileID: 878784308040322821, guid: b7c5ff7b767151941bb2a7bee3a046e1, type: 3}
       propertyPath: m_Enabled
       value: 0
