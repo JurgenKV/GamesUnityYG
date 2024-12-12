@@ -245,7 +245,7 @@ MonoBehaviour:
   - {fileID: 1904018515}
   - {fileID: 1948466989}
   - {fileID: 1011198735}
-  helpCooldown: 60
+  helpCooldown: 15
   catCounterText: {fileID: 2075453766}
   helpAdButton: {fileID: 1607701367}
   CatsAmountText: {fileID: 2075453766}
@@ -633,7 +633,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.9960785, g: 0.9960785, b: 0.9803922, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

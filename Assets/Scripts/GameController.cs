@@ -15,7 +15,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject descWindowWin;
     [SerializeField] private Button menuButton;
     public List<Cat> CatsList;
-    public int helpCooldown = 60;
+    public int helpCooldown;
     
     [SerializeField] private TMP_Text catCounterText;
     //[SerializeField] private LevelDataStorage _defaultLevelDataStorage;
@@ -29,6 +29,7 @@ public class GameController : MonoBehaviour
     private int _levelID = -1;
     void Start()
     {
+        helpCooldown = 15;
         string levelName = SceneManager.GetActiveScene().name.ToString();
         _levelID = int.Parse(Regex.Replace(levelName, @"^.*? ", ""));
         

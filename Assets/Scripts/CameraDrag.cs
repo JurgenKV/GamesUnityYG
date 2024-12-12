@@ -19,7 +19,7 @@ public class CameraDrag : MonoBehaviour
 
     private void Awake()
     {
-        MinCameraSize = 4f;
+        MinCameraSize = 3f;
         InitializeCamera();
     }
 
@@ -150,6 +150,8 @@ public class CameraDrag : MonoBehaviour
         float maxWidth = spriteBounds.size.x / (2 * aspectRatio); // Width limit
 
         MaxCameraSize = Mathf.Min(maxHeight, maxWidth);
+        if((MaxCameraSize * 0.75f) > MinCameraSize)
+            MaxCameraSize *= 0.75f;
         // Log the results
         Debug.Log($"Calculated Camera Size Limits: Min = {MinCameraSize}, Max = {MaxCameraSize}");
     }

@@ -1,8 +1,8 @@
 {
-    "idSave": 661,
-    "IsMusicActive": true,
-    "IsSoundActive": false,
-    "TotalCats": 24,
+    "idSave": 721,
+    "IsMusicActive": false,
+    "IsSoundActive": true,
+    "TotalCats": 30,
     "LevelDataYG": [
         {
             "Id": 0,
@@ -38,12 +38,23 @@
         {
             "Id": 1,
             "CatsAmount": 10,
-            "CatsCoughtTotal": 0,
+            "CatsCoughtTotal": 10,
             "IsNeedRewardToUnlock": false,
             "IsNeedTotalCatsToUnlock": false,
             "CatsToUnlock": 0,
             "IsUnlocked": true,
-            "IdOfCoughtCats": []
+            "IdOfCoughtCats": [
+                3,
+                8,
+                2,
+                1,
+                6,
+                9,
+                5,
+                0,
+                7,
+                4
+            ]
         },
         {
             "Id": 2,
@@ -82,7 +93,7 @@
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
             "CatsToUnlock": 0,
-            "IsUnlocked": false,
+            "IsUnlocked": true,
             "IdOfCoughtCats": []
         },
         {
@@ -92,7 +103,7 @@
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
             "CatsToUnlock": 0,
-            "IsUnlocked": false,
+            "IsUnlocked": true,
             "IdOfCoughtCats": []
         },
         {
