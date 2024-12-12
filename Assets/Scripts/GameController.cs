@@ -11,6 +11,9 @@ using YG;
 
 public class GameController : MonoBehaviour
 {
+    [SerializeField] private GameObject descWindow;
+    [SerializeField] private GameObject descWindowWin;
+    [SerializeField] private Button menuButton;
     public List<Cat> CatsList;
     public int helpCooldown = 60;
     
@@ -58,8 +61,18 @@ public class GameController : MonoBehaviour
         
         _currentlevelData.SetTotalCats(_currentlevelData.IdOfCoughtCats.Count);
         UpdateUI();
-        
+        CheckWinDesc();
         YG2.SaveProgress();
+    }
+
+    private void CheckWinDesc()
+    {
+        if (!CatsList.TrueForAll(i => i.WasFound))
+            return;
+        
+        descWindow.SetActive(false);
+        descWindowWin.SetActive(true);
+        menuButton.interactable = false;
     }
 
     public void OnClickHelpAdButton()

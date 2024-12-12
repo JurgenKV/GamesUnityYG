@@ -376,6 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40d0717709b62b74882dc2beceab24c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelID: 0
   levelNum: {fileID: 5812986684220139598}
   catCount: {fileID: 4331741727749705745}
   levelImage: {fileID: 4324214055359577057}
@@ -826,8 +827,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000024796, y: 0}
-  m_SizeDelta: {x: 270, y: 255}
+  m_AnchoredPosition: {x: 0.000024796, y: -4.7444}
+  m_SizeDelta: {x: 270, y: 240.5111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8398168081217170361
 CanvasRenderer:
@@ -1306,15 +1307,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 435955231973849212}
   m_Father: {fileID: 6822177879699098798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 38.2}
-  m_SizeDelta: {x: 270, y: 255}
+  m_AnchoredPosition: {x: 0, y: 36.43}
+  m_SizeDelta: {x: 270, y: 247.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1142777897248960138
 CanvasRenderer:
