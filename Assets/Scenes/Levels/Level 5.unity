@@ -3805,10 +3805,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6094908596113175936, guid: b7c5ff7b767151941bb2a7bee3a046e1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1570264934141561598}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7c5ff7b767151941bb2a7bee3a046e1, type: 3}
 --- !u!114 &1570264934141561594 stripped
 MonoBehaviour:
@@ -3831,34 +3828,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5623063459756196366, guid: b7c5ff7b767151941bb2a7bee3a046e1, type: 3}
   m_PrefabInstance: {fileID: 1570264934141561593}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1570264934141561597 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6094908596113175936, guid: b7c5ff7b767151941bb2a7bee3a046e1, type: 3}
-  m_PrefabInstance: {fileID: 1570264934141561593}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1570264934141561598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570264934141561597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
 --- !u!1001 &6659592583680837392
 PrefabInstance:
   m_ObjectHideFlags: 0

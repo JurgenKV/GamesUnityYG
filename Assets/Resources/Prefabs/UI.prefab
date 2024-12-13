@@ -776,7 +776,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5811167230403094103}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1145,7 +1145,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.497
+  m_Value: 0.52
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1920,7 +1920,7 @@ GameObject:
   - component: {fileID: 8584956732532006178}
   - component: {fileID: 2231802589381179186}
   - component: {fileID: 878784308040322821}
-  - component: {fileID: 7519981975913141460}
+  - component: {fileID: 8334158929014910855}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -2034,7 +2034,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7519981975913141460
+--- !u!114 &8334158929014910855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2122,7 +2122,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4606586301089760877, guid: 9ca763fb5d814ab4c8832e60a6e40bc4, type: 3}
+  m_Sprite: {fileID: 6834936909458936417, guid: 8ea781723070a0a42afc7a23111c8bbf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2131,7 +2131,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 3
 --- !u!1 &7577026732648490178
 GameObject:
   m_ObjectHideFlags: 0
