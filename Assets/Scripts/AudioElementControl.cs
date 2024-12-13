@@ -10,7 +10,7 @@ enum AudioType
 }
 public class AudioElementControl : MonoBehaviour
 {
-    [SerializeField] AudioType audioType = AudioType.Music;
+    [SerializeField] AudioType audioType;
     [SerializeField] private List <AudioSource> audioSourceByType;
 
     private bool _prevIsSoundActive = false;

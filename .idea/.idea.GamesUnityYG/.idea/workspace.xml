@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="Some fix, camera borders, resolution fix etc.">
+    <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/BuildLogYG2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/BuildLogYG2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/MochiyPopPOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/MochiyPopPOne-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Heavy SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Heavy SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 0.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunInfo.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunSettings.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InitScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InitScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LanguageScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LanguageScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioElementControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioElementControl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +170,7 @@
       <workItem from="1733820369373" duration="28494000" />
       <workItem from="1733916790202" duration="7309000" />
       <workItem from="1733987513681" duration="5124000" />
+      <workItem from="1734085706162" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="upd .xml">
       <option name="closed" value="true" />
@@ -291,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734022131719</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix change level button">
+      <option name="closed" value="true" />
+      <created>1734024691277</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734024691277</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +365,7 @@
     <MESSAGE value="Added 20 levels, completed game without optimization" />
     <MESSAGE value="Fix min camera size, changed build settings, added win desc window" />
     <MESSAGE value="Some fix, camera borders, resolution fix etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some fix, camera borders, resolution fix etc." />
+    <MESSAGE value="fix change level button" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix change level button" />
   </component>
 </project>
