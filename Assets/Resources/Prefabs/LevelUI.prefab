@@ -306,6 +306,7 @@ GameObject:
   - component: {fileID: 8273933121885451728}
   - component: {fileID: 5929132831333502260}
   - component: {fileID: 6969304922005408722}
+  - component: {fileID: 8783855307898052595}
   m_Layer: 0
   m_Name: LevelUI
   m_TagString: Untagged
@@ -385,6 +386,19 @@ MonoBehaviour:
   shadowPanelAD: {fileID: 5726765553851207840}
   shadowPanelNeedCats: {fileID: 1652753099374986871}
   needCatCount: {fileID: 4438252938094506985}
+--- !u!114 &8783855307898052595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313160133923181118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19193bc026dbcf34aa1e1526bd4476f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardID: 
 --- !u!1 &1652753099374986871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,10 +1415,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
@@ -1412,7 +1430,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6969304922005408722}
     - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8783855307898052595}
+    - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
@@ -1420,11 +1446,23 @@ PrefabInstance:
       value: StartLevel
       objectReference: {fileID: 0}
     - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ShowFullAds
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: LevelUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ADManagerYG, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131268733672886285, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1153254674344325906, guid: 4aa58d057ffa20742bbe3b3a25a21695, type: 3}
