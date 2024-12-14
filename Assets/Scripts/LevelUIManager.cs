@@ -14,7 +14,6 @@ public class LevelUIManager : MonoBehaviour
     {
         CheckTotalCats();
         UpdateLevelUI();
-        ADManagerYG.ShowFullAds();
     }
 
     public void UpdateLevelUI()

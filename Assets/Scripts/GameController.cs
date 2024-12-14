@@ -29,6 +29,7 @@ public class GameController : MonoBehaviour
     private int _levelID = -1;
     void Start()
     {
+        ADManagerYG.ShowFullAds();
         helpCooldown = 15;
         string levelName = SceneManager.GetActiveScene().name.ToString();
         _levelID = int.Parse(Regex.Replace(levelName, @"^.*? ", ""));
