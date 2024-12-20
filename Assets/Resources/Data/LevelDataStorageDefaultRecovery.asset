@@ -93,7 +93,7 @@ MonoBehaviour:
     CatsToUnlock: 0
     IsUnlocked: 0
     IdOfCoughtCats: 
-  - Id: 9
+  - Id: 10
     CatsAmount: 30
     CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
     CatsToUnlock: 100
     IsUnlocked: 0
     IdOfCoughtCats: 
-  - Id: 9
+  - Id: 11
     CatsAmount: 20
     CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 1
@@ -109,7 +109,7 @@ MonoBehaviour:
     CatsToUnlock: 0
     IsUnlocked: 0
     IdOfCoughtCats: 
-  - Id: 9
+  - Id: 12
     CatsAmount: 20
     CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 1
@@ -117,7 +117,7 @@ MonoBehaviour:
     CatsToUnlock: 0
     IsUnlocked: 0
     IdOfCoughtCats: 
-  - Id: 9
+  - Id: 13
     CatsAmount: 30
     CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0
@@ -125,7 +125,7 @@ MonoBehaviour:
     CatsToUnlock: 130
     IsUnlocked: 0
     IdOfCoughtCats: 
-  - Id: 9
+  - Id: 14
     CatsAmount: 20
     CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
     CatsToUnlock: 160
     IsUnlocked: 0
     IdOfCoughtCats: 
-  - Id: 9
+  - Id: 15
     CatsAmount: 30
     CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 1
@@ -141,7 +141,7 @@ MonoBehaviour:
     CatsToUnlock: 0
     IsUnlocked: 0
     IdOfCoughtCats: 
-  - Id: 9
+  - Id: 16
     CatsAmount: 15
     CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0

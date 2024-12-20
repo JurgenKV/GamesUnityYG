@@ -8,7 +8,11 @@ public class InitPlugin : MonoBehaviour
 {
     [SerializeField] private string sceneName = "LanguageScene";
     [SerializeField] private LevelDataStorage levelDataStorageDefault;
-    private void OnEnable() => YG2.onGetSDKData += OnGetData;
+
+    private void OnEnable()
+    {
+        YG2.onGetSDKData += OnGetData;
+    }
 
     private void OnGetData()
     {
@@ -17,7 +21,8 @@ public class InitPlugin : MonoBehaviour
             LoadDefaultLevelData();
             YG2.SaveProgress();
         }
-        
+
+        FixId();
         SceneManager.LoadScene(sceneName);
     }
 
@@ -26,6 +31,16 @@ public class InitPlugin : MonoBehaviour
         YG2.saves.SetData(levelDataStorageDefault.Levels);
         //YG2.saves.LevelDataYG.AddRange(levelDataStorageDefault.Levels);
     }
-    
-    
+
+    private void FixId()
+    {
+        if (YG2.saves.LevelDataYG.FindAll(i => i.Id == 9).Count <= 1)
+            return;
+
+        for (var i = 0; i < YG2.saves.LevelDataYG.Count; i++)
+        {
+            var index = levelDataStorageDefault.Levels[i].Id;
+            YG2.saves.LevelDataYG[i].Id = index;
+        }
+    }
 }
