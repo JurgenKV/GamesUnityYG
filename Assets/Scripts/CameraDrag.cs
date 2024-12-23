@@ -14,11 +14,12 @@ public class CameraDrag : MonoBehaviour
     private Vector2 minBounds; // Minimum camera bounds
     private Vector2 maxBounds; // Maximum camera bounds
 
-    public float MinCameraSize = 2f; // Fixed minimum camera size
+    [HideInInspector] public float MinCameraSize; // Fixed minimum camera size
     public float MaxCameraSize; // Maximum camera size (calculated)
 
     private void Awake()
     {
+        MinCameraSize = 3f;
         InitializeCamera();
     }
 
@@ -149,7 +150,8 @@ public class CameraDrag : MonoBehaviour
         float maxWidth = spriteBounds.size.x / (2 * aspectRatio); // Width limit
 
         MaxCameraSize = Mathf.Min(maxHeight, maxWidth);
-        MinCameraSize = 2f;
+        if((MaxCameraSize * 0.75f) > MinCameraSize)
+            MaxCameraSize *= 0.75f;
         // Log the results
         Debug.Log($"Calculated Camera Size Limits: Min = {MinCameraSize}, Max = {MaxCameraSize}");
     }

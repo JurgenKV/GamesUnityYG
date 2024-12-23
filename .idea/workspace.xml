@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1222ebf-8629-4c6c-8a5b-3e2f6676d0b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ModulesListYG2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ModulesListYG2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ModulesListYG2.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ModulesListYG2.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ServerInfoYG2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ServerInfoYG2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ServerInfoYG2.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ServerInfoYG2.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Font.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Font.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Font/COPYRIGHT.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Font/COPYRIGHT.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Font/Disket-Mono-Regular.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Font/Disket-Mono-Regular.ttf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Font/Disket-mono_EULA .pdf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Font/Disket-mono_EULA .pdf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewing Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewing Shadow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewing Shadow.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewing Shadow.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewing.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewing.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewing.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewing.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewingRender.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewingRender.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewingRender.renderTexture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Content/Materials/DebugViewingRender.renderTexture.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs/DemoButtonYG.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs/DemoButtonYG.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs/DemoButtonYG.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs/DemoButtonYG.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs/SceneButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs/SceneButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs/SceneButton.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Prefabs/SceneButton.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scenes/ExampleYG2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scenes/ExampleYG2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scenes/ExampleYG2.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scenes/ExampleYG2.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/BasicData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/BasicData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/CanvasScaleForMobile.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/CanvasScaleForMobile.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/DebugViewing.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/DebugViewing.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/DemoTextTranslateRU.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/DemoTextTranslateRU.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/Scenes/AllDemoScenes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/Scenes/AllDemoScenes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/Scenes/DemoSceneLoadButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/Scenes/DemoSceneLoadButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/Scenes/DemoScenePartial.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Scripts/Scenes/DemoScenePartial.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Sprites.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Sprites/ButtonTextureYG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Sprites/ButtonTextureYG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Sprites/PanelTextureYG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Example/Sprites/PanelTextureYG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/LICENSE.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/LICENSE.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Plugins/YandexGame.jslib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Plugins/YandexGame.jslib.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio.css.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio.css.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio_build.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio_build.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/BackgroundFormat.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/BackgroundFormat.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground.css.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground.css.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground_build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground_build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground_build.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground_build.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/LogoFormat.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/LogoFormat.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/PixelRatioMobile.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/PixelRatioMobile.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ColorProgressBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ColorProgressBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ColorProgressBar.css.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ColorProgressBar.css.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ProgressBar_build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ProgressBar_build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ProgressBar_build.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ProgressBar_build.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/RoundProgressBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/RoundProgressBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/RoundProgressBar.css.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/RoundProgressBar.css.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/SyncInitSDK.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/SyncInitSDK.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.css.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.css.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.html.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.html.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel_build.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel_build.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/YandexGamePlatform.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Scripts/YandexGamePlatform.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Version.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/Version.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/CallAction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/CallAction.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/GameReadyAPI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/GameReadyAPI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/GameReadyAPI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/GameReadyAPI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/GameplayAPI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/GameplayAPI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/IPlatformsYG2.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/IPlatformsYG2.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/InitAttributes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/InitAttributes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/OptionalPlatform.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/OptionalPlatform.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/WindowGame.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/WindowGame.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/YG2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/YG2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/YG2.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/YG2.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/YGInsides.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/YGInsides.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/YGSendMessage.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Basic/YGSendMessage.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes/ColorYGAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes/ColorYGAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes/HeaderYGAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes/HeaderYGAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes/LabelYGAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes/LabelYGAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes/NestedYGAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Attributes/NestedYGAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ArchivingBuild.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ArchivingBuild.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/BuildLog.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/BuildLog.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ModifyBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ModifyBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ModifyBuild.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ModifyBuild.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ProcessBuild.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ProcessBuild.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/DocumentationEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/DocumentationEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/FastButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/FastButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Debugging.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Debugging.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/IconPluginYG2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/IconPluginYG2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/ImageLoad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/ImageLoad.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Platform.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Platform.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Settings.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Settings.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/TriggerYG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/TriggerYG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/YGEditorStyles.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Editor/YGEditorStyles.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Module.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Module.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/TextStyles.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/TextStyles.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Translates.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Translates.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Translates/Langs.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Translates/Langs.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Translates/VersionControl_lang.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/Translates/VersionControl_lang.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/UnityPackagesManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/EditorScr/UnityPackagesManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/BasicSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/BasicSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/BasicSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/BasicSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/Editor/ExampleScenes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/Editor/ExampleScenes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/Editor/InfoYGEditorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/Editor/InfoYGEditorWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/Editor/InfoYGEditorWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/Editor/InfoYGEditorWindow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYG.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYG.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYG.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYGReferences.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYGReferences.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYG_lang.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYG_lang.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYG_lang.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/InfoYG_lang.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/SimulationSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/SimulationSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/TemplateSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/TemplateSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/TemplateSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/InfoYG/TemplateSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/AdvCallingSimulation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/AdvCallingSimulation.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/Editor/EventsYG2Editor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/Editor/EventsYG2Editor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/Editor/PlatformEventsYG2Editor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/Editor/PlatformEventsYG2Editor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/EventsYG2.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/EventsYG2.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/ImageLoadYG.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/ImageLoadYG.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/PauseGameYG.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/PauseGameYG.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/PlatformEventsYG2.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Other/PlatformEventsYG2.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/CommonOptions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/CommonOptions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/Editor/AsmdefPlatformCreate.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/Editor/AsmdefPlatformCreate.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/Editor/PlatformSettingsEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/Editor/PlatformSettingsEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/PlatformSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/PlatformSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/PlatformSettingsAttributes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/PlatformSettingsAttributes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/PlatformSettings_langs.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/PlatformSettings_langs.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/PlatformToggles.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/PlatformToggles.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/ProjectSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Platform/ProjectSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor/Server.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor/Server.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor/UpdatePluginYGTemp.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor/UpdatePluginYGTemp.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor/VersionControlWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor/VersionControlWindow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor/WelcomeWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/Editor/WelcomeWindow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/ModuleJson.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/ModuleJson.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/ServerInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/ServerInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/ServerJson.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Server/ServerJson.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils/JsonYG.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils/JsonYG.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils/LocalStorage_yg.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils/LocalStorage_yg.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils/Plugins/LocalStorage.jslib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Scripts/Utils/Plugins/LocalStorage.jslib.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Third-Party Notices.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Third-Party Notices.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Version.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Version.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Background/Group 21288.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Background/Group 21288.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Background/Group 21313.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Background/Group 21313.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Background/Rectangle 1795.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Background/Rectangle 1795.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/mask out.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/mask out.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/index.html.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/index.html.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/style.css.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/style.css.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/thumbnail.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/thumbnail.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JurgenKV&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JurgenKV/GamesUnityYG.git&quot;,
+    &quot;accountId&quot;: &quot;36b1a8d2-2538-4227-9608-052a6ea73e4d&quot;
+  }
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2qTSsNGsDJRGIe5Py1zBuX6b27y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1222ebf-8629-4c6c-8a5b-3e2f6676d0b7" name="Changes" comment="" />
+      <created>1734685280484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734685280484</updated>
+      <workItem from="1734685280486" duration="56000" />
+      <workItem from="1734686171662" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectDiscoverer">
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

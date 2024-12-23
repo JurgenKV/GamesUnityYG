@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using YG;
@@ -8,11 +9,11 @@ public class LevelUIManager : MonoBehaviour
 {
     [SerializeField] private List<LevelUI> levelUis;
     [SerializeField] private LevelDataStorage levelDataStorageDefault;
+    [SerializeField] private TMP_Text _totalCatsText;
     void Start()
     {
         CheckTotalCats();
         UpdateLevelUI();
-        ADManagerYG.ShowFullAds();
     }
 
     public void UpdateLevelUI()
@@ -39,7 +40,7 @@ public class LevelUIManager : MonoBehaviour
     private void CheckTotalCats()
     {
         YG2.saves.TotalCats = YG2.saves.LevelDataYG.Sum(level => level.CatsCoughtTotal);
-        
+        _totalCatsText.text = YG2.saves.TotalCats.ToString() + "/" + YG2.saves.LevelDataYG.Sum(level => level.CatsAmount).ToString();
         YG2.saves.SetAnyLeaderboard("CatFinder", YG2.saves.TotalCats );
     }
 }

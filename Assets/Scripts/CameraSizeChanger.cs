@@ -3,21 +3,21 @@ using UnityEngine.UI;
 
 public class CameraSizeChanger : MonoBehaviour
 {
-    private Slider _slider = null; 
-    private CameraDrag _cameraDrag = null; 
+    private Slider _slider = null;
+    private CameraDrag _cameraDrag = null;
     [SerializeField] private Camera _camera = null; // Camera reference to be assigned via the inspector
-    
+
     void Start()
     {
         _cameraDrag = FindAnyObjectByType<CameraDrag>();
         _cameraDrag.CalculateCameraSizeLimits();
         InitializeScrollbarAndCamera();
-        
+
         if (_camera != null)
         {
-            _cameraDrag.SetCameraSize(_cameraDrag.MaxCameraSize/ _cameraDrag.MinCameraSize);
+            _cameraDrag.SetCameraSize(_cameraDrag.MaxCameraSize / _cameraDrag.MinCameraSize);
         }
-        
+
         SetScrollbarValueBasedOnCameraSize();
     }
 
@@ -36,23 +36,23 @@ public class CameraSizeChanger : MonoBehaviour
     {
         if (_camera != null && _slider != null)
         {
-            // Normalize the camera size between the min and max range
-            float normalizedSize = Mathf.InverseLerp(_cameraDrag.MinCameraSize, _cameraDrag.MaxCameraSize, _camera.orthographicSize);
-            _slider.value = normalizedSize; // Set the scrollbar value
+            // Reverse normalization: larger size -> smaller value
+            float reversedNormalizedSize = Mathf.InverseLerp(_cameraDrag.MaxCameraSize, _cameraDrag.MinCameraSize, _camera.orthographicSize);
+            _slider.value = reversedNormalizedSize; // Set the scrollbar value
         }
     }
 
     public void ScrollHelp()
     {
         _camera.transform.position = new Vector3(0, 0, -10);
-        _slider.value = 1;
+        _slider.value = 0;
         ChangeSize(_slider.value);
     }
 
     public void ChangeSize(float newSize)
     {
-        // Interpolate the camera size between the minimum and maximum values based on the scrollbar
-        float newCameraSize = Mathf.Lerp(_cameraDrag.MinCameraSize, _cameraDrag.MaxCameraSize, newSize);
+        // Reverse interpolation: smaller scrollbar value -> larger camera size
+        float newCameraSize = Mathf.Lerp(_cameraDrag.MaxCameraSize, _cameraDrag.MinCameraSize, newSize);
 
         // Apply the new camera size
         if (_camera != null)

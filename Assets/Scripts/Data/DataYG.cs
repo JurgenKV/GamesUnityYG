@@ -20,8 +20,8 @@ namespace YG
         
         public void SetData(List<LevelData> defaultLevelData)
         {
-            IsMusicActive = false;
-            IsSoundActive = false;
+            IsMusicActive = true;
+            IsSoundActive = true;
             TotalCats = 0;
             LevelDataYG.Clear();
             LevelDataYG = defaultLevelData

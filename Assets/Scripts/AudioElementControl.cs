@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using YG;
@@ -8,84 +7,51 @@ enum AudioType
     Music,
     Sound
 }
+
 public class AudioElementControl : MonoBehaviour
 {
-    [SerializeField] AudioType audioType = AudioType.Music;
-    [SerializeField] private List <AudioSource> audioSourceByType;
+    [SerializeField] private AudioType audioType;
+    [SerializeField] private List<AudioSource> audioSourceByType;
 
-    private bool _prevIsSoundActive = false;
-    private bool _prevIsMusicActive = false;
+    private bool previousState;
+
     private void Start()
     {
+        previousState = GetAudioState();
         CheckAudio();
     }
 
     private void Update()
     {
-        CheckAudio();
+        bool currentState = GetAudioState();
+        if (currentState != previousState)
+        {
+            previousState = currentState;
+            CheckAudio();
+        }
+    }
+
+    private bool GetAudioState()
+    {
+        return audioType switch
+        {
+            AudioType.Music => YG2.saves.IsMusicActive,
+            AudioType.Sound => YG2.saves.IsSoundActive,
+            _ => true
+        };
     }
 
     private void CheckAudio()
     {
-        switch (audioType)
-        {
-            case AudioType.Music:
-                CheckMusicSettings();
-                break;
-            case AudioType.Sound:
-                CheckSoundSettings();
-                break;
-        }
+        bool isActive = GetAudioState();
+        SetAudioMute(!isActive);
     }
 
-    private void CheckSoundSettings()
+    private void SetAudioMute(bool mute)
     {
-        if(_prevIsSoundActive == YG2.saves.IsSoundActive)
-            return;
-        
-        if (YG2.saves.IsSoundActive)
+        foreach (AudioSource source in audioSourceByType)
         {
-            foreach (AudioSource source in audioSourceByType)
-            {
-                source.mute = false;
-            }
+            source.mute = mute;
         }
-        else
-        {
-            foreach (AudioSource source in audioSourceByType)
-            {
-                source.mute = true;
-            }
-        }
-
-        _prevIsSoundActive = YG2.saves.IsSoundActive;
     }
-
-    private void CheckMusicSettings()
-    {
-        if(_prevIsMusicActive == YG2.saves.IsMusicActive)
-            return;
-        
-        if (YG2.saves.IsMusicActive)
-        {
-            foreach (AudioSource source in audioSourceByType)
-            {
-                source.mute = false;
-            }
-        }
-        else
-        {
-            foreach (AudioSource source in audioSourceByType)
-            {
-                source.mute = true;
-            }
-        }
-        
-        _prevIsMusicActive = YG2.saves.IsMusicActive;
-    }
-    
-    
-    
-    
-    
 }

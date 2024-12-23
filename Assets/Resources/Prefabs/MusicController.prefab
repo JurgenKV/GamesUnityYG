@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5671223330031521263}
   - component: {fileID: 6696778060012520173}
   - component: {fileID: 3079872413302862452}
+  - component: {fileID: 2661542351085273242}
   m_Layer: 0
   m_Name: MusicController
   m_TagString: Untagged
@@ -43,8 +44,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 13bcb00b8b9d529439f88663be4ee699, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4c1cefd225bcbe94f9bd223fae115a36, type: 3}
-  m_Resource: {fileID: 8300000, guid: 4c1cefd225bcbe94f9bd223fae115a36, type: 3}
+  m_audioClip: {fileID: 8300000, guid: eb48278310b1b284b80bde855d8cd4dc, type: 3}
+  m_Resource: {fileID: 8300000, guid: eb48278310b1b284b80bde855d8cd4dc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -142,3 +143,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9837ec7b855a33040a461105aa5814ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2661542351085273242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4408279214375533780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5517edbe245a7224496ff8b22708a982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioResources:
+  - {fileID: 8300000, guid: eb48278310b1b284b80bde855d8cd4dc, type: 3}
+  - {fileID: 8300000, guid: be71b83faf4bdae4cbbaf56bc5ca63e1, type: 3}
+  - {fileID: 8300000, guid: b8b85d03006b6584494921c7078f329b, type: 3}
+  - {fileID: 8300000, guid: d485651934c946448af65d253d627755, type: 3}
+  - {fileID: 8300000, guid: dcf9cc984b353c64aadd93cddd6f4461, type: 3}
+  - {fileID: 8300000, guid: d83ccaa254e33f84cbba0ecd026c593a, type: 3}
+  - {fileID: 8300000, guid: 64a8eefc02ff67e4dae13dbac2ec7678, type: 3}
+  - {fileID: 8300000, guid: bd5034776c19bd349ac8ac77ddff5d73, type: 3}
+  - {fileID: 8300000, guid: 258d7e767fd62ea4d88b3b7847d3d524, type: 3}
+  - {fileID: 8300000, guid: 904e374e0cde6a74c9c0ba3d45d6c796, type: 3}

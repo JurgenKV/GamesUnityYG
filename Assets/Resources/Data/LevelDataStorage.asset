@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Levels:
   - Id: 0
-    CatsAmount: 10
-    CatsCought: 0
+    CatsAmount: 20
+    CatsCoughtTotal: 0
     IsNeedRewardToUnlock: 0
-    IsUnlocked: 0
+    IsNeedTotalCatsToUnlock: 0
+    CatsToUnlock: 0
+    IsUnlocked: 1
     IdOfCoughtCats: 
+  LevelLogo: []

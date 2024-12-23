@@ -1,28 +1,60 @@
 {
-    "idSave": 534,
-    "IsMusicActive": false,
-    "IsSoundActive": false,
-    "TotalCats": 0,
+    "idSave": 862,
+    "IsMusicActive": true,
+    "IsSoundActive": true,
+    "TotalCats": 20,
     "LevelDataYG": [
         {
             "Id": 0,
-            "CatsAmount": 10,
-            "CatsCoughtTotal": 0,
+            "CatsAmount": 20,
+            "CatsCoughtTotal": 20,
             "IsNeedRewardToUnlock": false,
             "IsNeedTotalCatsToUnlock": false,
             "CatsToUnlock": 0,
             "IsUnlocked": true,
-            "IdOfCoughtCats": []
+            "IdOfCoughtCats": [
+                12,
+                4,
+                19,
+                13,
+                14,
+                0,
+                3,
+                15,
+                8,
+                5,
+                18,
+                6,
+                16,
+                2,
+                17,
+                1,
+                11,
+                10,
+                7,
+                9
+            ]
         },
         {
             "Id": 1,
             "CatsAmount": 10,
-            "CatsCoughtTotal": 0,
-            "IsNeedRewardToUnlock": true,
+            "CatsCoughtTotal": 10,
+            "IsNeedRewardToUnlock": false,
             "IsNeedTotalCatsToUnlock": false,
             "CatsToUnlock": 0,
             "IsUnlocked": true,
-            "IdOfCoughtCats": []
+            "IdOfCoughtCats": [
+                3,
+                6,
+                0,
+                2,
+                8,
+                5,
+                9,
+                1,
+                4,
+                7
+            ]
         },
         {
             "Id": 2,
@@ -36,7 +68,7 @@
         },
         {
             "Id": 3,
-            "CatsAmount": 10,
+            "CatsAmount": 20,
             "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": false,
             "IsNeedTotalCatsToUnlock": false,
@@ -56,12 +88,12 @@
         },
         {
             "Id": 5,
-            "CatsAmount": 10,
+            "CatsAmount": 30,
             "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
             "CatsToUnlock": 0,
-            "IsUnlocked": true,
+            "IsUnlocked": false,
             "IdOfCoughtCats": []
         },
         {
@@ -76,11 +108,11 @@
         },
         {
             "Id": 7,
-            "CatsAmount": 10,
+            "CatsAmount": 30,
             "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": false,
             "IsNeedTotalCatsToUnlock": true,
-            "CatsToUnlock": 200,
+            "CatsToUnlock": 70,
             "IsUnlocked": false,
             "IdOfCoughtCats": []
         },
@@ -88,15 +120,15 @@
             "Id": 8,
             "CatsAmount": 10,
             "CatsCoughtTotal": 0,
-            "IsNeedRewardToUnlock": true,
-            "IsNeedTotalCatsToUnlock": false,
-            "CatsToUnlock": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsNeedTotalCatsToUnlock": true,
+            "CatsToUnlock": 90,
             "IsUnlocked": false,
             "IdOfCoughtCats": []
         },
         {
             "Id": 9,
-            "CatsAmount": 10,
+            "CatsAmount": 30,
             "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
@@ -106,7 +138,17 @@
         },
         {
             "Id": 9,
-            "CatsAmount": 10,
+            "CatsAmount": 30,
+            "CatsCoughtTotal": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsNeedTotalCatsToUnlock": true,
+            "CatsToUnlock": 100,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 9,
+            "CatsAmount": 20,
             "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
@@ -116,7 +158,7 @@
         },
         {
             "Id": 9,
-            "CatsAmount": 10,
+            "CatsAmount": 20,
             "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
@@ -126,7 +168,27 @@
         },
         {
             "Id": 9,
-            "CatsAmount": 10,
+            "CatsAmount": 30,
+            "CatsCoughtTotal": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsNeedTotalCatsToUnlock": true,
+            "CatsToUnlock": 130,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 9,
+            "CatsAmount": 20,
+            "CatsCoughtTotal": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsNeedTotalCatsToUnlock": true,
+            "CatsToUnlock": 160,
+            "IsUnlocked": false,
+            "IdOfCoughtCats": []
+        },
+        {
+            "Id": 9,
+            "CatsAmount": 30,
             "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
@@ -136,47 +198,17 @@
         },
         {
             "Id": 9,
-            "CatsAmount": 10,
+            "CatsAmount": 15,
             "CatsCoughtTotal": 0,
-            "IsNeedRewardToUnlock": true,
-            "IsNeedTotalCatsToUnlock": false,
-            "CatsToUnlock": 0,
-            "IsUnlocked": false,
-            "IdOfCoughtCats": []
-        },
-        {
-            "Id": 9,
-            "CatsAmount": 10,
-            "CatsCoughtTotal": 0,
-            "IsNeedRewardToUnlock": true,
-            "IsNeedTotalCatsToUnlock": false,
-            "CatsToUnlock": 0,
-            "IsUnlocked": false,
-            "IdOfCoughtCats": []
-        },
-        {
-            "Id": 9,
-            "CatsAmount": 10,
-            "CatsCoughtTotal": 0,
-            "IsNeedRewardToUnlock": true,
-            "IsNeedTotalCatsToUnlock": false,
-            "CatsToUnlock": 0,
-            "IsUnlocked": false,
-            "IdOfCoughtCats": []
-        },
-        {
-            "Id": 9,
-            "CatsAmount": 10,
-            "CatsCoughtTotal": 0,
-            "IsNeedRewardToUnlock": true,
-            "IsNeedTotalCatsToUnlock": false,
-            "CatsToUnlock": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsNeedTotalCatsToUnlock": true,
+            "CatsToUnlock": 180,
             "IsUnlocked": false,
             "IdOfCoughtCats": []
         },
         {
             "Id": 17,
-            "CatsAmount": 10,
+            "CatsAmount": 15,
             "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
@@ -186,7 +218,7 @@
         },
         {
             "Id": 18,
-            "CatsAmount": 10,
+            "CatsAmount": 20,
             "CatsCoughtTotal": 0,
             "IsNeedRewardToUnlock": true,
             "IsNeedTotalCatsToUnlock": false,
@@ -196,11 +228,11 @@
         },
         {
             "Id": 19,
-            "CatsAmount": 10,
+            "CatsAmount": 20,
             "CatsCoughtTotal": 0,
-            "IsNeedRewardToUnlock": true,
-            "IsNeedTotalCatsToUnlock": false,
-            "CatsToUnlock": 0,
+            "IsNeedRewardToUnlock": false,
+            "IsNeedTotalCatsToUnlock": true,
+            "CatsToUnlock": 380,
             "IsUnlocked": false,
             "IdOfCoughtCats": []
         }
