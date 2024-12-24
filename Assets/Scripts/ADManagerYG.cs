@@ -65,7 +65,7 @@ public class ADManagerYG : MonoBehaviour
        
        private void EndRewardHelpFindCatLevel()
        {
-           FindAnyObjectByType<GameController>().EndAdVideoHelpButton();
+           
        }
        
         

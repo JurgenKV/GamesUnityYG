@@ -26,46 +26,6 @@ MonoBehaviour:
     m_path: Assets/Scenes/LanguageScene.unity
   - m_enabled: 1
     m_path: Assets/Scenes/MainMenuScene.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 0.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 1.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 2.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 3.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 4.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 5.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 6.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 7.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 8.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 9.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 10.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 11.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 12.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 13.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 14.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 15.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 16.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 17.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 18.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Levels/Level 19.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings:

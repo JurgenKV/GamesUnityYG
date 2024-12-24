@@ -148,8 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82a9fa95dfdb63c4aa967e8bb5099c79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: LanguageScene
-  levelDataStorageDefault: {fileID: 11400000, guid: d79126396f7a9f44491ad7867516c064, type: 2}
+  sceneName: MainMenuScene
 --- !u!4 &1304737114
 Transform:
   m_ObjectHideFlags: 0
@@ -265,9 +264,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 0.9981785
-    height: 1
+    y: 0.3416667
+    width: 1
+    height: 0.31640628
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -417,7 +416,6 @@ MonoBehaviour:
   isDebugActive: 0
   Music: 0
   Sound: 0
-  _levelDatas: []
 --- !u!114 &1960002004
 MonoBehaviour:
   m_ObjectHideFlags: 0

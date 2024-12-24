@@ -9,15 +9,7 @@ public class LevelDataStorage : ScriptableObject
 {
     public List<LevelData> Levels = new List<LevelData>();
     public List<Sprite> LevelLogo = new List<Sprite>();
-
-    public void ResetCoughtCatsYg(int levelId)
-    {
-        LevelData levelToReset = YG2.saves.LevelDataYG.First(i=> i.Id == levelId);
-        
-        levelToReset.IdOfCoughtCats.Clear();
-        
-        YG2.SaveProgress();
-    }
+    
 }
 
 [Serializable]
