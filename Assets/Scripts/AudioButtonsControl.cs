@@ -4,17 +4,16 @@ using YG;
 
 public class AudioButtonsControl : MonoBehaviour
 {
+    private static readonly int IsActive = Animator.StringToHash("IsActive");
+    
     [SerializeField] private Toggle musicToggle;
-    [SerializeField] private Image musicImage;
-    [SerializeField] private Sprite musicOnSprite;
-    [SerializeField] private Sprite musicOffSprite;
+    [SerializeField] private Animator musicSwitchAnimator;
     
     [Space(10)]
     
     [SerializeField] private Toggle soundToggle;
-    [SerializeField] private Image soundImage;
-    [SerializeField] private Sprite soundOnSprite;
-    [SerializeField] private Sprite soundOffSprite;
+    [SerializeField] private Animator soundSwitchAnimator;
+
     
     void Start()
     {
@@ -35,12 +34,12 @@ public class AudioButtonsControl : MonoBehaviour
         if (YG2.saves.IsMusicActive)
         {
             musicToggle.isOn = true;
-            musicImage.sprite = musicOnSprite;
+            musicSwitchAnimator.SetBool(IsActive, true);
         }
         else
         {
             musicToggle.isOn = false;
-            musicImage.sprite = musicOffSprite;
+            musicSwitchAnimator.SetBool(IsActive, false);
         }
     }
 
@@ -49,12 +48,12 @@ public class AudioButtonsControl : MonoBehaviour
         if (YG2.saves.IsSoundActive)
         {
             soundToggle.isOn = true;
-            soundImage.sprite = soundOnSprite;
+            soundSwitchAnimator.SetBool(IsActive, true);
         }
         else
         {
             soundToggle.isOn = false;
-            soundImage.sprite = soundOffSprite;
+            soundSwitchAnimator.SetBool(IsActive, false);
         }
         
     }

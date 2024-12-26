@@ -23,12 +23,11 @@ public class ADManagerYG : MonoBehaviour
            switch(id)
            {
                case "0":
-                   EndRewardHelpFindCatLevel();
-                   Debug.Log("EndRewardHelpFindCatLevel();");
+                   EndRewardGetHearth();
+                   
                    break;
                case "1":
-                   EndRewardUnlockLevel();
-                   Debug.Log("EndRewardUnlockLevel();");
+
                    break;
                case "2":
                    
@@ -45,29 +44,16 @@ public class ADManagerYG : MonoBehaviour
            }
        }
 
-       public void StartRewardUnlockLevel(string id, int level)
-       {
-           rewardID = id;
-           tempLevelID = level;
-           YG2.RewardedAdvShow(rewardID);
-       }
-
-       private void EndRewardUnlockLevel()
-       {
-           FindAnyObjectByType<LevelUIManager>().EndRewardUnlockLevel(tempLevelID);
-       }
-
-       public void StartRewardHelpFindCatLevel(string id)
+       public void StartRewardGetHearth(string id)
        {
            rewardID = id;
            YG2.RewardedAdvShow(rewardID);
        }
        
-       private void EndRewardHelpFindCatLevel()
+       private void EndRewardGetHearth()
        {
            
        }
-       
         
         public static void ShowFullAds()
         {

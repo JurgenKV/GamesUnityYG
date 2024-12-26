@@ -11,5 +11,10 @@ using YG;
 
 public class GameController : MonoBehaviour
 {
-    
+
+
+    public void OnClickContinue()
+    {
+        
+    }
 }
