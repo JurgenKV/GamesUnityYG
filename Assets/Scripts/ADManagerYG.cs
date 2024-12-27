@@ -24,7 +24,7 @@ public class ADManagerYG : MonoBehaviour
            {
                case "0":
                    EndRewardGetHearth();
-                   
+                   Debug.Log("EndRewardGetHearth();");
                    break;
                case "1":
 
@@ -52,7 +52,7 @@ public class ADManagerYG : MonoBehaviour
        
        private void EndRewardGetHearth()
        {
-           
+           FindAnyObjectByType<GameController>().RestoreGame();
        }
         
         public static void ShowFullAds()

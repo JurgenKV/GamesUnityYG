@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="" />
+    <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PointShoot/IAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PointShoot/IAttack.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_12_2024_13_05_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_12_2024_13_05__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/SwitchButton/Switch Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/SwitchButton/Switch Animator Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Walls/Wall Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Walls/Wall Animator Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/SwitchToggle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/SwitchToggle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InitScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InitScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ADManagerYG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ADManagerYG.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioButtonsControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioButtonsControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,22 +77,18 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ADManagerYG.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioButtonsControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioElementControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraDrag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/LevelDataStorage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FocusSoundController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yurak/RiderProjects/GamesUnityYG/Assets/Scripts/GameController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yurak/RiderProjects/GamesUnityYG/Assets/Scripts/GameController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PawRandomRotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollBarBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics/Unity.Mathematics/random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal/Runtime/2D/PixelPerfectCamera.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui/Tests/Editor/UGUI/CanvasRenderer/ParentCanvasIsSane.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -159,6 +178,9 @@
       <workItem from="1735209573747" duration="2232000" />
       <workItem from="1735225695705" duration="965000" />
       <workItem from="1735228273017" duration="8444000" />
+      <workItem from="1735249224301" duration="189000" />
+      <workItem from="1735286840249" duration="13384000" />
+      <workItem from="1735303446076" duration="7541000" />
     </task>
     <task id="LOCAL-00001" summary="upd .xml">
       <option name="closed" value="true" />
@@ -352,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735249174047</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added logic of hide walls on settings">
+      <option name="closed" value="true" />
+      <created>1735249413515</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1735249413515</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +422,6 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Completed logic of LanguageScene" />
     <MESSAGE value="Added MainMenuScene.unity and UI audio logic integration" />
     <MESSAGE value="Added universal script for control audio" />
     <MESSAGE value="AudioElementControl" />
@@ -417,6 +446,7 @@
     <MESSAGE value="Added all UI\Game visual" />
     <MESSAGE value="All" />
     <MESSAGE value="Added all UI\Game visual and animations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all UI\Game visual and animations" />
+    <MESSAGE value="Added logic of hide walls on settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logic of hide walls on settings" />
   </component>
 </project>

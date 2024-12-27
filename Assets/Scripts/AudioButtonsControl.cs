@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using YG;
@@ -16,6 +17,11 @@ public class AudioButtonsControl : MonoBehaviour
 
     
     void Start()
+    {
+        RefreshButtonsUI();
+    }
+
+    private void OnEnable()
     {
         RefreshButtonsUI();
     }
@@ -58,16 +64,16 @@ public class AudioButtonsControl : MonoBehaviour
         
     }
 
-    public void OnClickMusicToggle(bool isOn)
+    public void OnClickMusicToggle()
     {
-        YG2.saves.IsMusicActive = isOn;
+        YG2.saves.IsMusicActive = musicToggle.isOn;
         YG2.SaveProgress();
         RefreshMusicUI();
     }
     
-    public void OnClickSoundToggle(bool isOn)
+    public void OnClickSoundToggle()
     {
-        YG2.saves.IsSoundActive = isOn;
+        YG2.saves.IsSoundActive = soundToggle.isOn;
         YG2.SaveProgress();
         RefreshSoundUI();
     }

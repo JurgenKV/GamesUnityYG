@@ -401,6 +401,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: InputSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 136642425316450712, guid: a24642cb5377fd04c8de0c779e2e9e06, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314292911629798444, guid: a24642cb5377fd04c8de0c779e2e9e06, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2178183479892886328, guid: a24642cb5377fd04c8de0c779e2e9e06, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806556228232491426, guid: a24642cb5377fd04c8de0c779e2e9e06, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6407185536819234565, guid: a24642cb5377fd04c8de0c779e2e9e06, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.48759094
