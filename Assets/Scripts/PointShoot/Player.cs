@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
         controls = new InputSystem_Actions();
 
 
-        controls.Player.Attack.performed += ctx => Attack();
+        controls.Player.Attack.started += ctx => Attack();
     }
 
     void OnEnable()

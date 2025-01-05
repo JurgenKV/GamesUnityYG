@@ -6,31 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/BuildLogYG2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/BuildLogYG2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/PlayerShoot/Crosshair Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/PlayerShoot/Crosshair Animator Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Walls/Wall Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Walls/Wall Animator Controller.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/MochiyPopPOne-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/MochiyPopPOne-Regular.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Heavy.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Heavy.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-HeavySlanted.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-HeavySlanted.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Regular.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Slanted.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ObjectSans-Slanted.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet G.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet G.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet R.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet R.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet Y.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet Y.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DebugObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DebugObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova-Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointShoot/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PointShoot/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointShoot/WallsMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PointShoot/WallsMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +71,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PawRandomRotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yurak/RiderProjects/GamesUnityYG/Assets/Scripts/PointShoot/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics/Unity.Mathematics/random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core/Runtime/Camera/FreeCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal/Runtime/2D/PixelPerfectCamera.cs" root0="SKIP_HIGHLIGHTING" />

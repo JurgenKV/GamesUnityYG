@@ -1,3 +1,3 @@
-Build path: C:/Users/yurak/RiderProjects/GamesYG/Builds/BallShot_0.0.0.4
-Build number: 29
+Build path: C:/Users/yurak/RiderProjects/GamesYG/Builds/BallShot_0.0.0.8
+Build number: 32
 PluginYG version: 2.001
