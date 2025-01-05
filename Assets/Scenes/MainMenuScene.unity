@@ -1369,6 +1369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _wallAnimator: {fileID: 594214543}
+  _crosshairAnimator: {fileID: 1290442735}
   _gameController: {fileID: 311568170}
 --- !u!1 &764474345
 GameObject:
@@ -2005,6 +2006,7 @@ GameObject:
   - component: {fileID: 923152755}
   - component: {fileID: 923152759}
   - component: {fileID: 923152760}
+  - component: {fileID: 923152761}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2048,9 +2050,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.007246377
     width: 1
-    height: 1
+    height: 0.9919485
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -2154,6 +2156,22 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
+--- !u!114 &923152761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923152754}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a2846725ca0744f9ee460645bd8f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDebugActive: 0
+  Music: 0
+  Sound: 0
+  gameSpeed: 1
 --- !u!1 &1023066829
 GameObject:
   m_ObjectHideFlags: 0
@@ -5532,42 +5550,6 @@ MonoBehaviour:
   audioType: 0
   audioSourceByType:
   - {fileID: 568963599785700975}
---- !u!58 &783618489290970230
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7381743922099382851}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.15999998
 --- !u!1001 &2615003343482327916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5838,8 +5820,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5953933554431529142}
   - component: {fileID: 6229470756580857917}
-  - component: {fileID: 9052920576958934028}
-  - component: {fileID: 783618489290970230}
   m_Layer: 0
   m_Name: BulletSpwnPoint
   m_TagString: Untagged
@@ -5847,21 +5827,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &9052920576958934028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7381743922099382851}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a93f88c49030c7144a4b9946ca762eb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ColorType: 0
-  ParticleSystem: {fileID: 0}
-  CurrentPlayer: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

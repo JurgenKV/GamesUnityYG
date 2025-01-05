@@ -75,6 +75,7 @@ public class Player : MonoBehaviour
         {
            
             Vector2 direction = (lastCrosshairPosition - spawnPoint.position).normalized;
+            rb.interpolation = RigidbodyInterpolation2D.Interpolate;
             Debug.Log(direction);
             CheckFirstShoot();
             rb.AddForce(direction * bulletSpeed, ForceMode2D.Force); 

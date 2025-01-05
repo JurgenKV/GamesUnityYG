@@ -1,6 +1,6 @@
 {
-    "idSave": 1642,
-    "IsMusicActive": true,
-    "IsSoundActive": false,
+    "idSave": 1648,
+    "IsMusicActive": false,
+    "IsSoundActive": true,
     "TopScore": 30
 }
