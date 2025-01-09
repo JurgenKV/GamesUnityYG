@@ -11,17 +11,17 @@ public class Bullet : MonoBehaviour
     
     public void Delete(bool enableAnim = false)
     {
-        if(IsDeleted)
-            return;
-        
-        IsDeleted = true;
-        GetComponent<Collider2D>().enabled = false;
-        gameObject.GetComponent<SpriteRenderer>().enabled = false;
-        CurrentPlayer.CreateBullet();
-        //ParticleSystem.Play();
-        if(enableAnim)
-            Destroy(Instantiate(ParticleSystem, transform.position, Quaternion.identity), 5);
-        Destroy(gameObject, 1);
+        // if(IsDeleted)
+        //     return;
+        //
+        // IsDeleted = true;
+        // GetComponent<Collider2D>().enabled = false;
+        // gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        // CurrentPlayer.CreateBullet();
+        // //ParticleSystem.Play();
+        // if(enableAnim)
+        //     Destroy(Instantiate(ParticleSystem, transform.position, Quaternion.identity), 5);
+        // Destroy(gameObject, 1);
     }
     
 }

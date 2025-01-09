@@ -16,38 +16,30 @@ public enum ColorType
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private GameObject crosshair; 
+    private static readonly int Speed = Animator.StringToHash("Speed");
+    private static readonly int Eat = Animator.StringToHash("Eat");
     [SerializeField] private TMP_Text helpText;
-    public List<GameObject> bulletPrefabs; 
-    public Transform spawnPoint; 
-    public float bulletSpeed = 10f;
-
+    [SerializeField] private float speedMultiplier = 2;
     private InputSystem_Actions controls; 
-    private GameObject bullet;
-
     private GameController _gameController;
-
-    private Vector3 lastCrosshairPosition; 
-    private bool _firstShoot = true;
+    private bool _firstTap = true;
     private AudioSource _audioSource;
+    [SerializeField] private Animator _playerAnimator;
+
+    private float _animSpeed = 1;
     void Awake()
     {
-
         controls = new InputSystem_Actions();
-
-
         controls.Player.Attack.started += ctx => Attack();
     }
 
     void OnEnable()
     {
-
         controls.Enable();
     }
 
     void OnDisable()
     {
-       
         controls.Disable();
     }
 
@@ -55,47 +47,33 @@ public class Player : MonoBehaviour
     {
         _gameController = FindAnyObjectByType<GameController>();
         _audioSource = GetComponent<AudioSource>();
-        CreateBullet(); 
     }
 
     void Attack()
     {
-        if (EventSystem.current.IsPointerOverGameObject())
-            return; 
-        
-        if (_gameController.IsGamePaused || !_gameController.IsGameRunning || bullet == null)
+        if (_gameController.IsGamePaused || !_gameController.IsGameRunning)
             return;
         
-        lastCrosshairPosition = crosshair.transform.position;
-        _audioSource.Play();
+        CheckFirstTap();
         
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-
-        if (rb != null)
-        {
-           
-            Vector2 direction = (lastCrosshairPosition - spawnPoint.position).normalized;
-            rb.interpolation = RigidbodyInterpolation2D.Interpolate;
-            Debug.Log(direction);
-            CheckFirstShoot();
-            rb.AddForce(direction * bulletSpeed, ForceMode2D.Force); 
-        }
-
-        bullet = null; 
+        if (_animSpeed > 0)
+            _animSpeed = -1 * speedMultiplier;
+        else
+            _animSpeed = 1 * speedMultiplier;
+        
+        _playerAnimator.SetFloat(Speed, _animSpeed);
     }
 
-    public void CreateBullet()
+    public void PlayEatAnim()
     {
-        bullet = Instantiate(bulletPrefabs[Random.Range(0, bulletPrefabs.Count)], spawnPoint.position, spawnPoint.rotation);
-
-        bullet.GetComponent<Bullet>().CurrentPlayer = this;
+        _playerAnimator.SetTrigger(Eat);
     }
 
-    private void CheckFirstShoot()
+    private void CheckFirstTap()
     {
-        if(!_firstShoot)
+        if(!_firstTap)
             return;
-        _firstShoot = false;
+        _firstTap = false;
         StartCoroutine(FadeOutCor());
     }
 

@@ -23,6 +23,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private TMP_Text _currentScoreTextUI;
     [SerializeField] private TMP_Text _bestScoreTextUI;
     [SerializeField] private GameObject _settingsPanelUI;
+    
     public int CurrentScore
     {
         get => _currentScore;
@@ -74,7 +75,7 @@ public class GameController : MonoBehaviour
         if (_currentScore > YG2.saves.TopScore)
         {
             YG2.saves.TopScore = _currentScore;
-            YG2.saves.SetAnyLeaderboard("TopScore", _currentScore);
+            YG2.saves.SetAnyLeaderboard("TopCatScore", _currentScore);
             YG2.SaveProgress();
         }
 
