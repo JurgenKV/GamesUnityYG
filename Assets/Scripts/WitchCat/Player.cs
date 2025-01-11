@@ -19,7 +19,6 @@ public class Player : MonoBehaviour
     private static readonly int Speed = Animator.StringToHash("Speed");
     private static readonly int Eat = Animator.StringToHash("Eat");
     [SerializeField] private TMP_Text helpText;
-    [SerializeField] private float speedMultiplier = 2;
     private InputSystem_Actions controls; 
     private GameController _gameController;
     private bool _firstTap = true;
@@ -47,21 +46,40 @@ public class Player : MonoBehaviour
     {
         _gameController = FindAnyObjectByType<GameController>();
         _audioSource = GetComponent<AudioSource>();
+        _animSpeed = 2 * _gameController.SpeedMultiplier;
+    }
+
+    private void Update()
+    {
+        if(_gameController.SpeedMultiplier == 0)
+            _playerAnimator.SetFloat(Speed, 0);
+        else
+            _playerAnimator.SetFloat(Speed, _animSpeed);
     }
 
     void Attack()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+        
         if (_gameController.IsGamePaused || !_gameController.IsGameRunning)
             return;
-        
+           
         CheckFirstTap();
         
         if (_animSpeed > 0)
-            _animSpeed = -1 * speedMultiplier;
+            _animSpeed = -2 * _gameController.SpeedMultiplier;
         else
-            _animSpeed = 1 * speedMultiplier;
+            _animSpeed = 2 * _gameController.SpeedMultiplier;
         
         _playerAnimator.SetFloat(Speed, _animSpeed);
+    }
+
+    private void CorrectSpeed()
+    {
+        
     }
 
     public void PlayEatAnim()

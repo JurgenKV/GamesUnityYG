@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8621507585220708194}
   - component: {fileID: -3476157553556274141}
   m_Layer: 0
-  m_Name: Particle B
+  m_Name: Particle Fish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 20
+      scalar: 10
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -981,7 +981,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 20
+        scalar: 5
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -1546,7 +1546,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: -2174688837710115972, guid: f0ca28430fe5d4d488312979c7e7b81a, type: 3}
+    - sprite: {fileID: 2262208148251091433, guid: 7336c4cbc083325498c7bf9f8ac28cfa, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:

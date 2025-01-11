@@ -18,6 +18,8 @@ public class GameController : MonoBehaviour
     public bool IsGamePaused = false;
 
     private int _currentScore = 0;
+    public float SpeedMultiplier = 1;
+    private float _tempSpeedMultiplier;
     [SerializeField] private GameObject _gameOverUI;
     [SerializeField] private TMP_Text _currentScoreTextGameUI;
     [SerializeField] private TMP_Text _currentScoreTextUI;
@@ -43,7 +45,7 @@ public class GameController : MonoBehaviour
             _healthBarAnimator.SetInteger(Heart , value);
             if (value == 0)
             {
-                IsGamePaused = true;
+                SetPause(true);
                 _gameOverUI.SetActive(true);
                 SetAllScoreUI();
             }
@@ -55,6 +57,7 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         CurrentHealth = 3;
+        _tempSpeedMultiplier = SpeedMultiplier;
     }
 
     public void OnClickContinue()
@@ -64,7 +67,22 @@ public class GameController : MonoBehaviour
 
     public void SetPause(bool pause)
     {
+        if (IsGamePaused == pause)
+        {
+            return;
+        }
+
         IsGamePaused = pause;
+
+        if (IsGamePaused)
+        {
+            _tempSpeedMultiplier = SpeedMultiplier;
+            SpeedMultiplier = 0f;
+        }
+        else
+        {
+            SpeedMultiplier = _tempSpeedMultiplier;
+        }
     }
 
     private void SetAllScoreUI()
@@ -107,7 +125,7 @@ public class GameController : MonoBehaviour
         CurrentHealth += 1;
         _gameOverUI.SetActive(false);
         IsGamePaused = false;
-        
+        SpeedMultiplier = _tempSpeedMultiplier;
         if(_settingsPanelUI.activeSelf)
             _settingsPanelUI.SetActive(false);
         
