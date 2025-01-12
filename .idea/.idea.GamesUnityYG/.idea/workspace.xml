@@ -5,31 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7396b0f9-fd81-455c-9608-9420f966a79b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Fish.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Fish.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/FishSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/FishSpawner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/ScoreBall.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/ScoreBall.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Skull.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Skull.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/SkullSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/SkullSpawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamesUnityYG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/SavesEditorYG2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova-Light SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ArialNova-Light SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/CherryBomb-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/CherryBomb-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ComicHelvetic_Heavy SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ComicHelvetic_Heavy SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/ComicHelvetic_Medium SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/ComicHelvetic_Medium SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Particle B.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Particle B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Fish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Fish.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Skull.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Skull.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Group 21435.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Group 21435.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointShoot/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointShoot/Player.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Player.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Fish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Fish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Skull.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/Skull.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WitchCat/SkullSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WitchCat/SkullSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +56,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JurgenKV/GamesUnityYG.git&quot;,
-    &quot;accountId&quot;: &quot;36b1a8d2-2538-4227-9608-052a6ea73e4d&quot;
+    &quot;accountId&quot;: &quot;af639a06-f0db-41f7-afa7-52f90c8a1f46&quot;
   },
   &quot;recentNewPullRequestHead&quot;: {
     &quot;server&quot;: {
@@ -78,8 +70,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Fish.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScoreBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/yurak/RiderProjects/GamesUnityYG/Assets/Resources/Fonts/ArialNova SDF.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ADManagerYG.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioButtonsControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioElementControl.cs" root0="FORCE_HIGHLIGHTING" />
@@ -199,7 +190,8 @@
       <workItem from="1736434867837" duration="5252000" />
       <workItem from="1736607366280" duration="7608000" />
       <workItem from="1736615218000" duration="1443000" />
-      <workItem from="1736616965125" duration="3258000" />
+      <workItem from="1736616965125" duration="3958000" />
+      <workItem from="1736696041363" duration="7352000" />
     </task>
     <task id="LOCAL-00001" summary="upd .xml">
       <option name="closed" value="true" />
@@ -425,7 +417,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736443909468</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added game logic with fish heal and skull damage, pause of animations etc.">
+      <option name="closed" value="true" />
+      <created>1736620773176</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1736620773176</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +464,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added universal script for control audio&#10;&#10;AudioElementControl" />
     <MESSAGE value="Upload maps and cats with crunch compression" />
     <MESSAGE value="Added first level with Simple UI and Camera moving and resize logic" />
     <MESSAGE value="ADDED menu UI, added prototype of game logic and data storage" />
@@ -489,6 +488,7 @@
     <MESSAGE value="Completed game, added all game logic" />
     <MESSAGE value="Added all ui elements" />
     <MESSAGE value="Added spawn balls and cats animations and logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added spawn balls and cats animations and logic" />
+    <MESSAGE value="Added game logic with fish heal and skull damage, pause of animations etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added game logic with fish heal and skull damage, pause of animations etc." />
   </component>
 </project>

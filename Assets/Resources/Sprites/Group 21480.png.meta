@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 952ec97cea41e9647a97ff820964f56e
+guid: 37e37b8a0bfe6c94fbf779dd4334cce4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8353147008450782999
-    second: Group 21435_0
-  - first:
-      213: -6197935441777660651
-    second: Group 21435_1
-  - first:
-      213: -6231839798342464094
-    second: Group 21435_2
-  - first:
-      213: 3795253723390091418
-    second: Group 21435_3
+      213: -589204902251329402
+    second: Group 21480_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -148,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Group 21435_0
+      name: Group 21480_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 800
-        height: 608
+        width: 423
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,74 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e89cac7d09a31c80800000000000000
-      internalID: -8353147008450782999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Group 21435_1
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 800
-        height: 608
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 51de904cd828cf9a0800000000000000
-      internalID: -6197935441777660651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Group 21435_2
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 800
-        height: 608
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2adc7aa98be0489a0800000000000000
-      internalID: -6231839798342464094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Group 21435_3
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 0
-        width: 800
-        height: 608
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a90252f37237ba430800000000000000
-      internalID: 3795253723390091418
+      spriteID: 688046d5349b2d7f0800000000000000
+      internalID: -589204902251329402
       vertices: []
       indices: 
       edges: []
@@ -239,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 329b545ed9bcbd14b9568261304442ac
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -249,10 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Group 21435_0: -8353147008450782999
-      Group 21435_1: -6197935441777660651
-      Group 21435_2: -6231839798342464094
-      Group 21435_3: 3795253723390091418
+      Group 21480_0: -589204902251329402
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

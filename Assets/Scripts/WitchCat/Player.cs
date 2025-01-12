@@ -22,8 +22,8 @@ public class Player : MonoBehaviour
     private InputSystem_Actions controls; 
     private GameController _gameController;
     private bool _firstTap = true;
-    private AudioSource _audioSource;
     [SerializeField] private Animator _playerAnimator;
+    [SerializeField] private AudioSource audioSource;
 
     private float _animSpeed = 1;
     void Awake()
@@ -45,7 +45,6 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _gameController = FindAnyObjectByType<GameController>();
-        _audioSource = GetComponent<AudioSource>();
         _animSpeed = 2 * _gameController.SpeedMultiplier;
     }
 
@@ -85,6 +84,7 @@ public class Player : MonoBehaviour
     public void PlayEatAnim()
     {
         _playerAnimator.SetTrigger(Eat);
+        audioSource.Play();
     }
 
     private void CheckFirstTap()
@@ -92,6 +92,7 @@ public class Player : MonoBehaviour
         if(!_firstTap)
             return;
         _firstTap = false;
+        _gameController.witch.StartWitch();
         StartCoroutine(FadeOutCor());
     }
 

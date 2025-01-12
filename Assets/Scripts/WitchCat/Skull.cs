@@ -9,6 +9,7 @@ public class Skull : MonoBehaviour
     [HideInInspector] public GameController GameController;
     [HideInInspector] public Vector2 moveDirection;
     [SerializeField] private ParticleSystem particle;
+    [SerializeField] private AudioSource audioSource;
     void Start()
     {
         Invoke(nameof(DeleteObject), 10);
@@ -33,6 +34,8 @@ public class Skull : MonoBehaviour
         gameObject.GetComponent<Collider2D>().enabled = false;
         GameController.CurrentHealth -= 1;
         particle.Play();
+        audioSource.Play();
+        GameController.witch.DamageWitch();
         StartCoroutine(FadeCoroutine(false));
         
     }

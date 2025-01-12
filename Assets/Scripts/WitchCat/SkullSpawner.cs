@@ -1,5 +1,7 @@
 ﻿using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
 
 public class SkullSpawner : MonoBehaviour
 {
@@ -13,7 +15,7 @@ public class SkullSpawner : MonoBehaviour
 
     private void Update()
     {
-        _animator.SetFloat(SpeedAnim, 1 * gameController.SpeedMultiplier);
+        _animator.SetFloat(SpeedAnim, 0.9f * gameController.SpeedMultiplier);
     }
 
     public void SpawnerAnimEvent()
@@ -22,9 +24,28 @@ public class SkullSpawner : MonoBehaviour
             return;
         
         GameObject tempSkull = GameObject.Instantiate(skullPrefab, transform.position, Quaternion.identity);
+        
         Skull skull = tempSkull.GetComponent<Skull>();
-        skull.moveDirection =
-            (player.transform.position - transform.transform.position).normalized;
+        Random.InitState((int)DateTime.Now.Ticks);
+        // if (Random.Range(0, 100) < 50)
+        // {
+        //     // skull.moveDirection =
+        //     //     (player.transform.position - transform.transform.position).normalized;
+        //     skull.moveDirection = GetRandomDirection();
+        // }
+        // else
+        // {
+        //     skull.moveDirection = GetRandomDirection();
+        // }
+        skull.moveDirection = GetRandomDirection();
+        
         skull.GameController = gameController;
+    }
+    
+    Vector2 GetRandomDirection()
+    {
+        Vector2 randomVector = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+        
+        return randomVector.normalized;
     }
 }

@@ -20,11 +20,13 @@ public class GameController : MonoBehaviour
     private int _currentScore = 0;
     public float SpeedMultiplier = 1;
     private float _tempSpeedMultiplier;
+    public Witch witch;
     [SerializeField] private GameObject _gameOverUI;
     [SerializeField] private TMP_Text _currentScoreTextGameUI;
     [SerializeField] private TMP_Text _currentScoreTextUI;
     [SerializeField] private TMP_Text _bestScoreTextUI;
     [SerializeField] private GameObject _settingsPanelUI;
+    [SerializeField] private Animator _healthBarAnimator;
     
     public int CurrentScore
     {
@@ -52,12 +54,25 @@ public class GameController : MonoBehaviour
         }
     }
 
-    [SerializeField] private Animator _healthBarAnimator;
+    
     
     private void Start()
     {
         CurrentHealth = 3;
         _tempSpeedMultiplier = SpeedMultiplier;
+        
+        InvokeRepeating(nameof(DifficultUp), 15, 15);
+    }
+
+    private void DifficultUp()
+    {
+        if(IsGamePaused || !IsGameRunning)
+            return;
+        witch.PlayCommonWitch();
+        if(SpeedMultiplier >= 1.7f)
+            return;
+        
+        SpeedMultiplier += 0.1f;
     }
 
     public void OnClickContinue()
@@ -126,6 +141,10 @@ public class GameController : MonoBehaviour
         _gameOverUI.SetActive(false);
         IsGamePaused = false;
         SpeedMultiplier = _tempSpeedMultiplier;
+        
+        _currentScoreTextGameUI.text = _currentScore.ToString();
+        _currentScoreTextUI.text = _currentScore.ToString();
+        
         if(_settingsPanelUI.activeSelf)
             _settingsPanelUI.SetActive(false);
         

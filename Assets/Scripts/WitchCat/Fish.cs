@@ -10,6 +10,7 @@ public class Fish : MonoBehaviour
     [HideInInspector] public GameController GameController;
     [HideInInspector] public Vector2 moveDirection;
     [SerializeField] private ParticleSystem particle;
+    [SerializeField] private AudioSource audioSource;
     void Start()
     {
         Invoke(nameof(DeleteObject), 20);
@@ -35,6 +36,8 @@ public class Fish : MonoBehaviour
         if (GameController.CurrentHealth < 3)
             GameController.CurrentHealth += 1;
         particle.Play();
+        audioSource.Play();
+        GameController.witch.HealthWitch();
         StartCoroutine(FadeCoroutine(false));
         
     }
