@@ -10,7 +10,9 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Arial Nova
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 20d9b02e7a0981b48baeff0826231870, type: 3}
+  - {fileID: 12800000, guid: 38714c092c220e04ca097ef4c7075529, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

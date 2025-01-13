@@ -32,7 +32,8 @@ public class Skull : MonoBehaviour
         if(player ==null)
             return;
         gameObject.GetComponent<Collider2D>().enabled = false;
-        GameController.CurrentHealth -= 1;
+        if (GameController.CurrentHealth > 0)
+            GameController.CurrentHealth -= 1;
         particle.Play();
         audioSource.Play();
         GameController.witch.DamageWitch();

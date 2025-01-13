@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Witch : MonoBehaviour
@@ -15,6 +16,10 @@ public class Witch : MonoBehaviour
     void Start()
     {
         _animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
         _animator.SetFloat(Speed, 1f * gameController.SpeedMultiplier);
     }
 

@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using YG;
 
+
 public class GameController : MonoBehaviour
 {
     private static readonly int Heart = Animator.StringToHash("Heart");
@@ -22,6 +23,7 @@ public class GameController : MonoBehaviour
     private float _tempSpeedMultiplier;
     public Witch witch;
     [SerializeField] private GameObject _gameOverUI;
+    [SerializeField] private Button _adsButton;
     [SerializeField] private TMP_Text _currentScoreTextGameUI;
     [SerializeField] private TMP_Text _currentScoreTextUI;
     [SerializeField] private TMP_Text _bestScoreTextUI;
@@ -43,12 +45,23 @@ public class GameController : MonoBehaviour
         get => _currentHealth;
         set
         {
-            _currentHealth = value; 
-            _healthBarAnimator.SetInteger(Heart , value);
-            if (value == 0)
+            _currentHealth = value;
+            
+            if (_currentHealth < 0)
+                _currentHealth = 0;
+            _healthBarAnimator.SetInteger(Heart , _currentHealth);
+            
+            if (_currentHealth == 0)
             {
                 SetPause(true);
                 _gameOverUI.SetActive(true);
+                _adsButton.interactable = true;
+                if (_currentScore > YG2.saves.TopScore)
+                {
+                    YG2.saves.TopScore = _currentScore;
+                    YG2.saves.SetAnyLeaderboard("TopCatScore", _currentScore);
+                    YG2.SaveProgress();
+                }
                 SetAllScoreUI();
             }
         }
@@ -104,16 +117,7 @@ public class GameController : MonoBehaviour
     {
         _currentScoreTextGameUI.text = _currentScore.ToString();
         _currentScoreTextUI.text = _currentScore.ToString();
-        
-        if (_currentScore > YG2.saves.TopScore)
-        {
-            YG2.saves.TopScore = _currentScore;
-            YG2.saves.SetAnyLeaderboard("TopCatScore", _currentScore);
-            YG2.SaveProgress();
-        }
-
         TopScoreByLang();
-
     }
     
     private void TopScoreByLang()
@@ -137,7 +141,7 @@ public class GameController : MonoBehaviour
 
     public void RestoreGame()
     {
-        CurrentHealth += 1;
+        CurrentHealth = 3;
         _gameOverUI.SetActive(false);
         IsGamePaused = false;
         SpeedMultiplier = _tempSpeedMultiplier;

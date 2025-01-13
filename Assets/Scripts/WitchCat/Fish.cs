@@ -33,7 +33,7 @@ public class Fish : MonoBehaviour
         if(player ==null)
             return;
         gameObject.GetComponent<Collider2D>().enabled = false;
-        if (GameController.CurrentHealth < 3)
+        if (GameController.CurrentHealth > 0 & GameController.CurrentHealth < 3)
             GameController.CurrentHealth += 1;
         particle.Play();
         audioSource.Play();
