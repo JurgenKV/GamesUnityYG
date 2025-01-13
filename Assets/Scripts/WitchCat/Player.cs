@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
 
     void Attack()
     {
-        if (EventSystem.current.IsPointerOverGameObject())
+        if (IsPointerOverUIElement())
         {
             return;
         }
@@ -74,6 +74,29 @@ public class Player : MonoBehaviour
             _animSpeed = 2 * _gameController.SpeedMultiplier;
         
         _playerAnimator.SetFloat(Speed, _animSpeed);
+    }
+    
+    private bool IsPointerOverUIElement()
+    {
+        // Для мыши
+        if (Input.mousePresent)
+        {
+            return EventSystem.current.IsPointerOverGameObject();
+        }
+
+        // Для тачей
+        if (Input.touchCount > 0)
+        {
+            foreach (Touch touch in Input.touches)
+            {
+                if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
     }
 
     private void CorrectSpeed()
