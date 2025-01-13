@@ -354,7 +354,7 @@ MonoBehaviour:
   - {fileID: 7889909044425705831, guid: 3b6d46141832f3b4981109181cdf6ce2, type: 3}
   - {fileID: 7889909044425705831, guid: 703478b7c74c5c549a620bb896c55a58, type: 3}
   - {fileID: 7889909044425705831, guid: eb7ffd4d7cc8d834d90748d5be175b0b, type: 3}
-  spawnPoint: {fileID: 5953933554431529142}
+  spawnPoint: {fileID: 1290442733}
   bulletSpeed: 500
 --- !u!114 &161068931
 MonoBehaviour:
@@ -380,7 +380,7 @@ AudioSource:
   m_GameObject: {fileID: 161068926}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 13bcb00b8b9d529439f88663be4ee699, type: 2}
   m_audioClip: {fileID: 8300000, guid: a1cd6e66cb83cf84db04ea9a0ef32d06, type: 3}
   m_Resource: {fileID: 8300000, guid: a1cd6e66cb83cf84db04ea9a0ef32d06, type: 3}
   m_PlayOnAwake: 0
@@ -796,7 +796,7 @@ AudioSource:
   m_GameObject: {fileID: 285320367}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 13bcb00b8b9d529439f88663be4ee699, type: 2}
   m_audioClip: {fileID: 8300000, guid: 25728cd13aae8814789c2b7807c3ecd3, type: 3}
   m_Resource: {fileID: 8300000, guid: 25728cd13aae8814789c2b7807c3ecd3, type: 3}
   m_PlayOnAwake: 0
@@ -991,6 +991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsGameRunning: 1
   IsGamePaused: 0
+  _adsButton: {fileID: 1736929947}
   _gameOverUI: {fileID: 1552436198}
   _currentScoreTextGameUI: {fileID: 74428390}
   _currentScoreTextUI: {fileID: 1509487345}
@@ -1905,7 +1906,7 @@ AudioSource:
   m_GameObject: {fileID: 888890014}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 13bcb00b8b9d529439f88663be4ee699, type: 2}
   m_audioClip: {fileID: 8300000, guid: 25728cd13aae8814789c2b7807c3ecd3, type: 3}
   m_Resource: {fileID: 8300000, guid: 25728cd13aae8814789c2b7807c3ecd3, type: 3}
   m_PlayOnAwake: 0
@@ -2050,9 +2051,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.007246377
+    y: 0
     width: 1
-    height: 0.9919485
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -2068,7 +2069,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
+  m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -2337,7 +2338,7 @@ AudioSource:
   m_GameObject: {fileID: 1023066829}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 13bcb00b8b9d529439f88663be4ee699, type: 2}
   m_audioClip: {fileID: 8300000, guid: 25728cd13aae8814789c2b7807c3ecd3, type: 3}
   m_Resource: {fileID: 8300000, guid: 25728cd13aae8814789c2b7807c3ecd3, type: 3}
   m_PlayOnAwake: 0
@@ -2857,7 +2858,7 @@ AudioSource:
   m_GameObject: {fileID: 1062342932}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 13bcb00b8b9d529439f88663be4ee699, type: 2}
   m_audioClip: {fileID: 8300000, guid: 25728cd13aae8814789c2b7807c3ecd3, type: 3}
   m_Resource: {fileID: 8300000, guid: 25728cd13aae8814789c2b7807c3ecd3, type: 3}
   m_PlayOnAwake: 0
@@ -4864,6 +4865,18 @@ MonoBehaviour:
           m_StringArgument: 0
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1736929947}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1736929948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5451,16 +5464,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2661542351085273242, guid: c80f4d766f6e26e449a48ff18fc29738, type: 3}
       propertyPath: audioResources.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2661542351085273242, guid: c80f4d766f6e26e449a48ff18fc29738, type: 3}
       propertyPath: 'audioResources.Array.data[0]'
       value: 
-      objectReference: {fileID: 8300000, guid: d1b9b5e50b8f1de4cbcdcc9e13394681, type: 3}
+      objectReference: {fileID: 8300000, guid: 08cfff40de08bbf4a980721645ff3349, type: 3}
     - target: {fileID: 2661542351085273242, guid: c80f4d766f6e26e449a48ff18fc29738, type: 3}
       propertyPath: 'audioResources.Array.data[1]'
       value: 
-      objectReference: {fileID: 8300000, guid: 63e3d287e0d62a440819f8d7d1da34db, type: 3}
+      objectReference: {fileID: 8300000, guid: 4df4b6993470b994588a2d71582adb76, type: 3}
     - target: {fileID: 2661542351085273242, guid: c80f4d766f6e26e449a48ff18fc29738, type: 3}
       propertyPath: 'audioResources.Array.data[2]'
       value: 

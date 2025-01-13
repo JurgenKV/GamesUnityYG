@@ -16,7 +16,7 @@ public class GameController : MonoBehaviour
     
     public bool IsGameRunning = false;
     public bool IsGamePaused = false;
-
+    [SerializeField] private Button _adsButton;
     private int _currentScore = 0;
     [SerializeField] private GameObject _gameOverUI;
     [SerializeField] private TMP_Text _currentScoreTextGameUI;
@@ -38,12 +38,23 @@ public class GameController : MonoBehaviour
         get => _currentHealth;
         set
         {
-            _currentHealth = value; 
-            _healthBarAnimator.SetInteger(Heart , value);
-            if (value == 0)
+            _currentHealth = value;
+            if (_currentHealth < 0)
+                _currentHealth = 0;
+            
+            _healthBarAnimator.SetInteger(Heart , _currentHealth);
+            if (_currentHealth == 0)
             {
+                if (_currentScore > YG2.saves.TopScore)
+                {
+                    YG2.saves.TopScore = _currentScore;
+                    YG2.saves.SetAnyLeaderboard("TopScore", _currentScore);
+                    YG2.SaveProgress();
+                }
+                
                 IsGamePaused = true;
                 _gameOverUI.SetActive(true);
+                _adsButton.interactable = true;
                 SetAllScoreUI();
             }
         }
@@ -70,13 +81,6 @@ public class GameController : MonoBehaviour
     {
         _currentScoreTextGameUI.text = _currentScore.ToString();
         _currentScoreTextUI.text = _currentScore.ToString();
-        
-        if (_currentScore > YG2.saves.TopScore)
-        {
-            YG2.saves.TopScore = _currentScore;
-            YG2.saves.SetAnyLeaderboard("TopScore", _currentScore);
-            YG2.SaveProgress();
-        }
 
         TopScoreByLang();
 
@@ -103,7 +107,7 @@ public class GameController : MonoBehaviour
 
     public void RestoreGame()
     {
-        CurrentHealth += 1;
+         CurrentHealth = 1;
         _gameOverUI.SetActive(false);
         IsGamePaused = false;
         

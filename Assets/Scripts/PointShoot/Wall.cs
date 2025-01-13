@@ -20,12 +20,15 @@ public class Wall : MonoBehaviour
         
         if (bullet.ColorType.Equals(ColorType))
         {
-            _gameController.CurrentScore += 1;
+            if(_gameController.CurrentHealth > 0)
+                _gameController.CurrentScore += 1;
             bullet.Delete(false);
         }
         else
         {
-            _gameController.CurrentHealth -= 1;
+            if(_gameController.CurrentHealth > 0)
+                _gameController.CurrentHealth -= 1;
+            
             _audioSource.Play();
             bullet.Delete(true);
         }
