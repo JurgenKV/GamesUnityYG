@@ -5,65 +5,107 @@ using YG;
 
 public class ADManagerYG : MonoBehaviour
 {
-       public string rewardID;
+    public string rewardID;
+    private int tempLevelID;
+    private GameController _gameController;
 
-       private int tempLevelID;
-       
-       private void OnEnable()
-       {
-           YG2.onRewardAdv += OnReward;
-       }
-       private void OnDisable()
-       {
-           YG2.onRewardAdv -= OnReward;
-       }
-       
-       private void OnReward(string id)
-       {
-           switch(id)
-           {
-               case "0":
-                   EndRewardGetHearth();
-                   Debug.Log("EndRewardGetHearth();");
-                   break;
-               case "1":
+    private void Start()
+    {
+        _gameController = FindAnyObjectByType<GameController>();
+    }
 
-                   break;
-               case "2":
-                   
-                   break;
-               case "3":
-                   
-                   break;
-               case "4":
-                   
-                   break;
-               default:
-                   Debug.Log("OnReward " + id + " is unknown");
-                   break;
-           }
-       }
+    private void OnEnable()
+    {
+        YG2.onRewardAdv += OnReward;
+    }
 
-       public void StartRewardGetHearth(string id)
-       {
-           rewardID = id;
-           YG2.RewardedAdvShow(rewardID);
-       }
-       
-       private void EndRewardGetHearth()
-       {
-           FindAnyObjectByType<GameController>().RestoreGame();
-       }
-        
-        public static void ShowFullAds()
+    private void OnDisable()
+    {
+        YG2.onRewardAdv -= OnReward;
+    }
+
+    private void OnReward(string id)
+    {
+        switch (id)
         {
-            try
-            {
-                YG2.InterstitialAdvShow();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
+            case "0":
+                EndRewardGetHearth();
+                Debug.Log("EndRewardGetHearth();");
+                break;
+            case "1":
+                EndRewardFreezeTime();
+                Debug.Log("EndRewardFreezeTime();");
+                break;
+            case "2":
+                EndRewardOneHealth();
+                Debug.Log("EndRewardFreezeTime();");
+                break;
+            case "3":
+                EndRewardScoreMultiplier();
+                Debug.Log("EndRewardFreezeTime();");
+                break;
+            case "4":
+
+                break;
+            default:
+                Debug.Log("OnReward " + id + " is unknown");
+                break;
         }
+    }
+
+    public void StartRewardGetHearth(string id)
+    {
+        rewardID = id;
+        YG2.RewardedAdvShow(rewardID);
+    }
+
+    private void EndRewardGetHearth()
+    {
+        _gameController.RestoreGame();
+    }
+
+    public void StartRewardFreezeTime(string id)
+    {
+        rewardID = id;
+        YG2.RewardedAdvShow(rewardID);
+    }
+
+    private void EndRewardFreezeTime()
+    {
+        _gameController.PrizeFreeze();
+    }
+
+    public void StartRewardOneHealth(string id)
+    {
+        rewardID = id;
+        YG2.RewardedAdvShow(rewardID);
+    }
+
+    private void EndRewardOneHealth()
+    {
+        _gameController.PrizeHealth();
+    }
+
+    public void StartRewardScoreMultiplier(string id)
+    {
+        rewardID = id;
+        YG2.RewardedAdvShow(rewardID);
+    }
+
+    private void EndRewardScoreMultiplier()
+    {
+        _gameController.PrizeScore();
+    }
+
+    public static void ShowFullAds()
+    {
+        try
+        {
+            YG2.InterstitialAdvShow();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
+    }
 }

@@ -58,9 +58,16 @@ public class Player : MonoBehaviour
 
     void Attack()
     {
-        if (IsPointerOverUIElement())
+        try
         {
-            return;
+            if (IsPointerOverUIElement())
+            {
+                return;
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
         }
         
         if (_gameController.IsGamePaused || !_gameController.IsGameRunning)

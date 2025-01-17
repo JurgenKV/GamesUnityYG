@@ -21,7 +21,7 @@ public class Skull : MonoBehaviour
         if(GameController.IsGamePaused || !GameController.IsGameRunning)
             return;
         
-        transform.Translate(moveDirection * Time.fixedDeltaTime * speed, Space.World);
+        transform.Translate(moveDirection * Time.fixedDeltaTime * speed * GameController.FreezeSpeedMultiplier, Space.World);
     }
     
     
@@ -32,7 +32,7 @@ public class Skull : MonoBehaviour
         if(player ==null)
             return;
         gameObject.GetComponent<Collider2D>().enabled = false;
-        if (GameController.CurrentHealth > 0)
+        if (GameController.CurrentHealth > 0 & !GameController.IssImmortality)
             GameController.CurrentHealth -= 1;
         particle.Play();
         audioSource.Play();

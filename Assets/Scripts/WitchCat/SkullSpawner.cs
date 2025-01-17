@@ -15,7 +15,7 @@ public class SkullSpawner : MonoBehaviour
 
     private void Update()
     {
-        _animator.SetFloat(SpeedAnim, 0.9f * gameController.SpeedMultiplier);
+        _animator.SetFloat(SpeedAnim, 0.9f * gameController.SpeedMultiplier * gameController.FreezeSpeedMultiplier);
     }
 
     public void SpawnerAnimEvent()
