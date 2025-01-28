@@ -23,6 +23,7 @@ public class Cat : MonoBehaviour
 
     public void OnClickCat()
     {
+        ADManagerYG.ShowFullAds();
         IsHelpActive = false;
         _gameController.CatWasFound(CatID);
     }

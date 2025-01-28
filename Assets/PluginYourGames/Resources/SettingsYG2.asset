@@ -111,7 +111,7 @@ MonoBehaviour:
     flags: []
   InterstitialAdv:
     showFirstAdv: 1
-    interAdvInterval: 60
+    interAdvInterval: 30
     postponeCallByFail: 0
     postponeCallTimer: 10
     labelAdvSimLabel: 0

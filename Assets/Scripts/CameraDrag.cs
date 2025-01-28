@@ -20,6 +20,7 @@ public class CameraDrag : MonoBehaviour
     private void Awake()
     {
         MinCameraSize = 3f;
+        dragSpeed = 15f;
         InitializeCamera();
     }
 
